@@ -1,0 +1,79 @@
+# XcodeGen project definition (https://github.com/yonaskolb/XcodeGen).
+# Generate the Xcode project with:  xcodegen generate   (see docs/SETUP.md)
+# The generated PoliceHQ.xcodeproj is not committed; this file is the source of truth.
+name: PoliceHQ
+options:
+  bundleIdPrefix: ca.example.policehq
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""            # set your Apple Developer Team ID locally (never commit secrets)
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+packages:
+  PoliceHQCore:
+    path: Packages/PoliceHQCore
+targets:
+  PoliceHQ:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App/Sources
+      - path: App/Resources/Assets.xcassets
+      - path: App/Resources/PrivacyInfo.xcprivacy
+      - path: App/Resources/TrustedKeys.txt
+      - path: App/Resources/TrainingScenarios.json
+      - path: App/Resources/BundledContent
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: PoliceHQCore
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Police HQ
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSupportsIndirectInputEvents: true
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        LSSupportsOpeningDocumentsInPlace: false
+        UTImportedTypeDeclarations:
+          - UTTypeIdentifier: ca.example.policehq.content-package
+            UTTypeDescription: Police HQ content package
+            UTTypeConformsTo: [public.data]
+            UTTypeTagSpecification:
+              public.filename-extension: [phqpkg]
+          - UTTypeIdentifier: ca.example.policehq.scenario-export
+            UTTypeDescription: Police HQ situation export
+            UTTypeConformsTo: [public.data]
+            UTTypeTagSpecification:
+              public.filename-extension: [phqscenario]
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: Police HQ content package
+            LSHandlerRank: Owner
+            LSItemContentTypes: [ca.example.policehq.content-package]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: ca.example.policehq.app
+        PRODUCT_NAME: PoliceHQ
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: NO
+schemes:
+  PoliceHQ:
+    build:
+      targets:
+        PoliceHQ: all
+    test:
+      config: Debug
+      targets:
+        - package: PoliceHQCore/PoliceHQCoreTests

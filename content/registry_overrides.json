@@ -1,0 +1,705 @@
+{
+  "_comment": "Curated metadata overrides keyed by SHA-256 of the uploaded file. Each value records the basis for the change. Applied after automatic seeding; these win.",
+  "overrides": {
+    "1e242c106cb7925df605c76938a9275ec909ce2044e2732b228ea2a721d4d78b": {
+      "source_id": "brampton-bylaw-93-93",
+      "title": "Traffic and Parking By-law 93-93 (consolidated text)",
+      "title_basis": "document text (\"A Consolidated By-law to regulate use of highways and parking in the City of Brampton\"; s. 1 short title)",
+      "doc_type": "by-law",
+      "schedule_number": null,
+      "parent_bylaw": null,
+      "citation": "By-law 93-93, Schedule Unknown",
+      "bylaw_number": "93-93",
+      "consolidation_note": "Revision Date: 2026/02/12 (printed on document)",
+      "municipality_basis": "City of Brampton named in document text",
+      "_original_filename": "Traffic_93-93_-_9393TXT.pdf"
+    },
+    "0e3fbddf22dc58b5df6be2e62c5b2ebbc7ebd30c09f8517969bb3ab73bd5de4f": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XIV: No Parking",
+      "_original_filename": "Traffic_93-93_-_9393S14.pdf",
+      "citation": "By-law 93-93, Schedule XIV"
+    },
+    "b0594c6994c3fb1f34cf9d43c28912f3530f33bbbbf7cb685472484f3f7aa963": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XL: Designated By-law Provisions",
+      "_original_filename": "Traffic_93-93_-_9393S40.pdf",
+      "citation": "By-law 93-93, Schedule XL"
+    },
+    "76b14716070a40da58f02d28ba614d7f98159e7cd66b740523a008c33f851d7d": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XLII: Designated Area Maximum Rate of Speed",
+      "_original_filename": "Traffic_93-93_-_9393S42.pdf",
+      "citation": "By-law 93-93, Schedule XLII"
+    },
+    "f878efb0a21e11af9b79a8b9f3cf84f2b8c4034628a7815f376a85fb4e01f27b": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XXII: Fire Routes",
+      "_original_filename": "Traffic_93-93_-_9393S22.pdf",
+      "citation": "By-law 93-93, Schedule XXII"
+    },
+    "1412c82b5c200443b88257ccd6ef40ad17670b4bef45f496a081e1c5bf69c12e": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XXVIII: Permit Only Operation (Types of Parking Lots)",
+      "_original_filename": "Traffic_93-93_-_9393S28.pdf",
+      "citation": "By-law 93-93, Schedule XXVIII"
+    },
+    "5dab4496d6be42c95281da4ef97a2272fe4ec50f6402efff78ba68278e1d328d": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XXX: Designated Bicycle Lanes",
+      "_original_filename": "Traffic_93-93_-_9393S30.pdf",
+      "citation": "By-law 93-93, Schedule XXX"
+    },
+    "1430c3f8ff96cbf49bd94754cacf41faaca32b60ed80803b9f15bd385ffb66a9": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XXXIII: No Parking Loading Zones",
+      "_original_filename": "Traffic_93-93_-_9393S33.pdf",
+      "citation": "By-law 93-93, Schedule XXXIII"
+    },
+    "d88db1fdb48c7d74f41ea0bd76fe814783f94489edd1b0ff567cd431e210ef39": {
+      "title": "Brampton Traffic By-law 93-93 — Schedule XII: Reduced Vehicle Loads",
+      "_original_filename": "Traffic_93-93_-_9393S12.pdf",
+      "citation": "By-law 93-93, Schedule XII"
+    },
+    "43b2c195bcd62c5898656bbe91301c58e9424b60c333f353e6ea7f5d0ca4ebfa": {
+      "source_id": "brampton-bylaw-93-93-map-rate-of-speed-map",
+      "title": "Brampton Traffic By-law 93-93 — Rate of Speed map",
+      "title_basis": "upload filename only; not printed in the document; Not verified",
+      "doc_type": "map (image)",
+      "municipality": "brampton",
+      "jurisdiction_label": "Municipal — Brampton",
+      "municipality_basis": "upload filename refers to By-law 93-93; the map image names several neighbouring municipalities and does not state which by-law it belongs to. Not verified.",
+      "citation": "By-law 93-93 (map; relationship not verified)",
+      "citation_basis": "upload filename only; not printed in the document; Not verified",
+      "parent_bylaw": "93-93",
+      "attribution_verified": false,
+      "issuing_authority": "Council of The Corporation of the City of Brampton (attribution not verified)",
+      "territorial_application": "City of Brampton (attribution not verified)",
+      "_original_filename": "Traffic_93-93_-_map-Rate-Speed.pdf"
+    },
+    "f368c8c22b1909e5e1ffe197bb20fcff8ca932f3de2803a94f9f75c37946a09d": {
+      "source_id": "brampton-bylaw-93-93-map-school-bus-loading-zones-map",
+      "title": "Brampton Traffic By-law 93-93 — School Bus Loading Zones map",
+      "title_basis": "upload filename only; not printed in the document; Not verified",
+      "doc_type": "map (image)",
+      "municipality": "brampton",
+      "jurisdiction_label": "Municipal — Brampton",
+      "municipality_basis": "upload filename refers to By-law 93-93; the map image names several neighbouring municipalities and does not state which by-law it belongs to. Not verified.",
+      "citation": "By-law 93-93 (map; relationship not verified)",
+      "citation_basis": "upload filename only; not printed in the document; Not verified",
+      "parent_bylaw": "93-93",
+      "attribution_verified": false,
+      "issuing_authority": "Council of The Corporation of the City of Brampton (attribution not verified)",
+      "territorial_application": "City of Brampton (attribution not verified)",
+      "_original_filename": "Traffic_93-93_-_map-School-Bus-Loading-Zones.pdf"
+    },
+    "360ba4526fa8b4ab9f3105050543de5d328dba122843321a95f6c83920fbfd92": {
+      "source_id": "brampton-bylaw-93-93-map-tow-away-map",
+      "title": "Brampton Traffic By-law 93-93 — Tow-Away map",
+      "title_basis": "upload filename only; not printed in the document; Not verified",
+      "doc_type": "map (image)",
+      "municipality": "brampton",
+      "jurisdiction_label": "Municipal — Brampton",
+      "municipality_basis": "upload filename refers to By-law 93-93; the map image names several neighbouring municipalities and does not state which by-law it belongs to. Not verified.",
+      "citation": "By-law 93-93 (map; relationship not verified)",
+      "citation_basis": "upload filename only; not printed in the document; Not verified",
+      "parent_bylaw": "93-93",
+      "attribution_verified": false,
+      "issuing_authority": "Council of The Corporation of the City of Brampton (attribution not verified)",
+      "territorial_application": "City of Brampton (attribution not verified)",
+      "_original_filename": "Traffic_93-93_-_map-Tow-Away.pdf"
+    },
+    "13cc29cfcbdfcf9c42e1e3de012e807449a4f35489c9e5fbb7aad004858c464f": {
+      "source_id": "brampton-bylaw-93-93-map-u-turns-map",
+      "title": "Brampton Traffic By-law 93-93 — U-Turns map",
+      "title_basis": "upload filename only; not printed in the document; Not verified",
+      "doc_type": "map (image)",
+      "municipality": "brampton",
+      "jurisdiction_label": "Municipal — Brampton",
+      "municipality_basis": "upload filename refers to By-law 93-93; the map image names several neighbouring municipalities and does not state which by-law it belongs to. Not verified.",
+      "citation": "By-law 93-93 (map; relationship not verified)",
+      "citation_basis": "upload filename only; not printed in the document; Not verified",
+      "parent_bylaw": "93-93",
+      "attribution_verified": false,
+      "issuing_authority": "Council of The Corporation of the City of Brampton (attribution not verified)",
+      "territorial_application": "City of Brampton (attribution not verified)",
+      "_original_filename": "Traffic_93-93_-_map-U-turns1.pdf"
+    },
+    "33ad09dad6780fde405694cceb9fb49d35cb42573912b9022ea1532d7f648315": {
+      "source_id": "brampton-bylaw-93-93-map-community-safety-zones-map",
+      "title": "Brampton Traffic By-law 93-93 — Community Safety Zones map",
+      "title_basis": "upload filename only; not printed in the document; Not verified",
+      "doc_type": "map (image)",
+      "municipality": "brampton",
+      "jurisdiction_label": "Municipal — Brampton",
+      "municipality_basis": "upload filename refers to By-law 93-93; the map image names several neighbouring municipalities and does not state which by-law it belongs to. Not verified.",
+      "citation": "By-law 93-93 (map; relationship not verified)",
+      "citation_basis": "upload filename only; not printed in the document; Not verified",
+      "parent_bylaw": "93-93",
+      "attribution_verified": false,
+      "issuing_authority": "Council of The Corporation of the City of Brampton (attribution not verified)",
+      "territorial_application": "City of Brampton (attribution not verified)",
+      "_original_filename": "Traffic_93-93_-_map-Community-Safety.pdf"
+    },
+    "7d12cce6a2681b78de1e41a6c9d3577782f054830b0f70d2560d398b702b5499": {
+      "source_id": "peel-bylaw-49-2019-sign-9-metres",
+      "title": "Smoke-Free By-law 49-2019 — sign: \"Within 9 metres of building, facility or structure\"",
+      "title_basis": "sign image text (read visually and by OCR); note: the upload filename says \"Indoor Public Place and Indoor Workplace\" but the sign wording concerns a 9-metre outdoor buffer",
+      "doc_type": "sign (image)",
+      "municipality": "peel",
+      "jurisdiction_label": "Municipal — Peel Region",
+      "municipality_basis": "\"Peel Region\" and \"By-law 49-2019\" printed on the sign image",
+      "citation": "By-law 49-2019 (sign)",
+      "citation_basis": "printed on sign image",
+      "bylaw_number": "49-2019",
+      "issuing_authority": "Council of The Regional Municipality of Peel",
+      "territorial_application": "Regional Municipality of Peel",
+      "_original_filename": "Smoke-Free_By-law_49-2019_-_Indoor_Public_Place_and_Indoor_Workplace_PDF_file.pdf"
+    },
+    "f80b2bc8ad8edb0ec9354dacc53be15efa36323927ee4a756556671893ca8c65": {
+      "source_id": "peel-bylaw-49-2019-sign-anywhere",
+      "title": "Smoke-Free By-law 49-2019 — sign: \"Anywhere on this property\"",
+      "title_basis": "sign image text (read visually and by OCR); note: the upload filename says \"Outdoor Public Place and Outdoor Construction Site\"",
+      "doc_type": "sign (image)",
+      "municipality": "peel",
+      "jurisdiction_label": "Municipal — Peel Region",
+      "municipality_basis": "\"Peel Region\" and \"By-law 49-2019\" printed on the sign image",
+      "citation": "By-law 49-2019 (sign)",
+      "citation_basis": "printed on sign image",
+      "bylaw_number": "49-2019",
+      "issuing_authority": "Council of The Regional Municipality of Peel",
+      "territorial_application": "Regional Municipality of Peel",
+      "_original_filename": "Smoke-Free_By-law_49-2019_-_Outdoor_Public_Place_and_Outdoor_Construction_Site_PDF_file.pdf"
+    },
+    "bf32da1a77d4c86c63f051b67aff47b933a9af7c1472c78e4fecd2e46ab7810c": {
+      "source_id": "peel-bylaw-15-2013-sched-a",
+      "title": "Region of Peel By-law 15-2013 — Schedule A",
+      "title_basis": "document text (\"SCHEDULE A TO BY-LAW NUMBER 15-2013\")",
+      "doc_type": "by-law schedule",
+      "parent_bylaw": "15-2013",
+      "citation": "By-law 15-2013, Schedule A",
+      "_original_filename": "Traffic_By-law_15-2013_-_Schedule_A.pdf"
+    },
+    "935be1563009d6bb4ecca3bf3c5d6cff10c3c1f25a7f06a6a7b7d00dcb670c36": {
+      "source_id": "peel-bylaw-15-2013",
+      "title": "Region of Peel By-law 15-2013 — traffic on regional roads (reference conversion)",
+      "title_basis": "document text (by-law number and purpose: \"A by-law to reconsolidate and amend the by-laws that regulate traffic on roads under the jurisdiction of The Regional Municipality of Peel\")",
+      "_original_filename": "Traffic_By-law_15-2013_REFERENCE_CONVERSION.pdf"
+    },
+    "3f61b2142fabc9c2bd439f03d20e872a93434e8581ac0f96611f93063330311a": {
+      "source_id": "peel-bylaw-35-2015",
+      "title": "Region of Peel By-law 35-2015 — waste collection (reference conversion)",
+      "title_basis": "document text (by-law number and purpose)",
+      "_original_filename": "Waste_Collection_By-law_35-2015_REFERENCE_CONVERSION.pdf"
+    },
+    "ceb994fc40fc186beba66353a4615f48e3bdf55831f2ae982810777acdb1e4ff": {
+      "source_id": "peel-bylaw-35-2015-sched-a-j",
+      "title": "Region of Peel Waste Collection By-law 35-2015 — Schedules A to J",
+      "title_basis": "document text (\"Schedule “A” To By-law 35-2015 Region of Peel Waste Collection By-law\")",
+      "doc_type": "by-law schedule",
+      "parent_bylaw": "35-2015",
+      "citation": "By-law 35-2015, Schedules A–J",
+      "municipality": "peel",
+      "jurisdiction_label": "Municipal — Peel Region",
+      "municipality_basis": "\"Region of Peel\" named in document text",
+      "issuing_authority": "Council of The Regional Municipality of Peel",
+      "territorial_application": "Regional Municipality of Peel",
+      "_original_filename": "Waste_Collection_By-law_35-2015_-_Schedules_A_to_J.pdf"
+    },
+    "34ab0e66ef531a7633d6761a47eded775945244cbdc0812a6ae567138e66fad1": {
+      "source_id": "peel-bylaw-49-2019-original",
+      "title": "Region of Peel Smoke-Free By-law 49-2019 — original enactment (as enacted, without later amendments)",
+      "title_basis": "document text (\"BY-LAW NUMBER 49-2019 A By-law to prohibit Smoking and Vaping in Outdoor Public Places and Workplaces\")",
+      "doc_type": "by-law (original enactment)",
+      "_original_filename": "Smoke-Free_By-law_49-2019_-_original_enactment.pdf"
+    },
+    "3f97e2a7053d142fb847abd39ef0ade97ce1b43f8b827912a73912bbfa4c1880": {
+      "source_id": "peel-bylaw-49-2019",
+      "title": "Region of Peel By-law 49-2019 — smoking and vaping (reference conversion)",
+      "title_basis": "document text (by-law number and purpose)",
+      "_original_filename": "Smoke-Free_By-law_49-2019_REFERENCE_CONVERSION.pdf"
+    },
+    "ba6ca7e71a738829d8743077ec0cd1926b63c5618a76a57708407a55c1fa1797": {
+      "source_id": "peel-bylaw-34-2018",
+      "title": "Region of Peel By-law 34-2018 — retail business holidays (reference conversion)",
+      "title_basis": "document text (by-law number and purpose)",
+      "_original_filename": "Retail_Business_Holidays_34-2018_REFERENCE_CONVERSION.pdf"
+    },
+    "9355065a5424e4d8c3942068ade61a849ef3cd3def3f649b2280502ac7b1dd33": {
+      "source_id": "peel-bylaw-53-2010",
+      "title": "Region of Peel By-law 53-2010 — wastewater discharge (reference conversion)",
+      "title_basis": "document text (by-law number and purpose)",
+      "_original_filename": "Wastewater_By-law_53-2010_REFERENCE_CONVERSION.pdf"
+    },
+    "a409a57f21e2206b3813a1f6de65b275251a0c6f32129b4694a18cebd95cca50": {
+      "source_id": "peel-bylaw-6-2017",
+      "title": "Region of Peel By-law 6-2017 — municipal drinking water system (reference conversion)",
+      "title_basis": "document text (by-law number and purpose)",
+      "_original_filename": "Drinking_water_By-law_6-2017_REFERENCE_CONVERSION.pdf"
+    },
+    "cd326ee01f8de9409d96855712a503cf29493739e64097238384c05955fc56a7": {
+      "source_id": "peel-bylaw-10-2017",
+      "title": "Region of Peel By-law 10-2017 — prevention of backflow into the municipal drinking water system (reference conversion)",
+      "title_basis": "document text (by-law number and purpose)",
+      "_original_filename": "Prevention_of_Backflow_into_the_Municipal_Drinking_Water_System_By-law_10-2017_REFERENCE_CONVERSION.pdf"
+    },
+    "409ee75f0f3226ce68d0abed4a227ce9de5541a47b7f785b0fd267ac97fcf440": {
+      "title": "Unauthorized Parking By-law 104-2018",
+      "title_basis": "document text",
+      "_original_filename": "Unauthorized_Parking_104-2018.pdf"
+    },
+    "a9ec881baa9b6e490546a0466daa219e25a493f833769a1446ac106046ff9d7f": {
+      "title": "Public Nuisance By-law 136-2018",
+      "title_basis": "document text",
+      "_original_filename": "Public_Nuisance_136-2018.pdf"
+    },
+    "b29f601f9b440b144b0c3debb2347252a6d315aa373e1ce5f2b3ca98e11de84d": {
+      "title": "By-law 157-2022 — registration of Additional Residential Units",
+      "title_basis": "document text",
+      "_original_filename": "Additional_Residential_Units_ARUs_Registration_By-law_157-2022.pdf"
+    },
+    "acb2cd48eb4a9bc19baa40c4665b5b8731d9e0d1fbd2dfbdc89fcad702fe21a4": {
+      "title": "By-law 165-2021 — short-term rentals",
+      "title_basis": "document text",
+      "_original_filename": "Short-Term_Rental_By-law_165-2021.pdf"
+    },
+    "37a72b83de5dc919c782ba320eb6e4cc4acd73c3390d2c007759502419b6482d": {
+      "title": "Vital Services By-law 68-2018",
+      "title_basis": "document text",
+      "_original_filename": "Vital_Services_68-2018.pdf"
+    },
+    "d0a6a1968d28dfedef26cf83bc927714e8633a2f691ec89b4496dcc63465479a": {
+      "title": "Camera Systems Administrative Penalty By-law 0036-2025",
+      "title_basis": "document text",
+      "_original_filename": "Camera_Systems_Administrative_Penalty_By-law.pdf"
+    },
+    "00dc5389e8dc3f93e23adf1f7f9d18807a5c40b4656bdeb03ccc6f00ebdc8106": {
+      "title": "Rental Repairs and Renovations Licensing By-law 0039-2026",
+      "title_basis": "document text",
+      "_original_filename": "Rental_Repairs_and_Renovations_Licensing_By-law.pdf"
+    },
+    "01aa4867972014641904899bad7849133c7fa6674c526a979d40887c47771d03": {
+      "title": "Animal Care and Control By-law 0098-2004",
+      "title_basis": "document text",
+      "_original_filename": "Animal_Care_and_Control_By-law.pdf"
+    },
+    "4dbacdbc0af41280add919d1f2100282fd80289d4d177a35070f3401481831a6": {
+      "title": "Licensing Administrative Penalty By-law 0135-2014",
+      "title_basis": "document text",
+      "_original_filename": "Licensing_Administrative_Penalty_By-law.pdf"
+    },
+    "77136df3cf27f42a841ef2c49ad209913606a33aa7f10b5d21955b2b79506cd3": {
+      "title": "Discharge of Firearms By-law 0271-2011",
+      "title_basis": "document text",
+      "_original_filename": "Discharging_of_Firearms_By-law.pdf"
+    },
+    "c218c697b4a350e0fbc2ad2923355ba4e7f6c318acfffc35557e7d6c183a79f5": {
+      "title": "Adult Entertainment Establishment Licensing By-law 0507-2005",
+      "title_basis": "document text",
+      "_original_filename": "Adult_Entertainment_Establishment_Licensing_By-law.pdf"
+    },
+    "6db6b561cbc95f3bdd090531b89b4b37645614f2714506bff428634541df7b37": {
+      "title": "The Traffic By-law 0555-2000",
+      "title_basis": "document text",
+      "_original_filename": "Traffic_Parking_By-law_-_The_Traffic_By_law_0555_2000.pdf"
+    },
+    "54cd32c4149025ce5ebf15ec2c1d0f79b57cf267b9de2543615a7b56e2eaef07": {
+      "citation": "By-law 93-93, Schedule XVIII",
+      "_original_filename": "Traffic_93-93_-_9393S18.pdf"
+    },
+    "2f41b74746ad863525d52605a62f3cbf513b8186bb9a7f9b7c514a3bfb459d24": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 5",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_05_Parking_for_Restricted_Periods.pdf"
+    },
+    "b09ccd27886996e957d1bd90d5ef7309a3a42e129facfacdd1d1a5b94df8afbd": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 3",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_03_No_Parking.pdf"
+    },
+    "510a78830108aa7d5db59134b9568cf26ff246435d90c02a02ff6e97e8b3b30d": {
+      "citation": "By-law 93-93, Schedule XIII",
+      "_original_filename": "Traffic_93-93_-_9393S13.pdf"
+    },
+    "177a91b74338c4de25f68e0b1a317d1ab9b7f80d33ab6dac0e626a8fd69805fa": {
+      "citation": "By-law 93-93, Schedule XXVI",
+      "_original_filename": "Traffic_93-93_-_9393S26.pdf"
+    },
+    "d135635815cd852464eae7ae8817a5706c398ac03e357e4c39f4f821454b4332": {
+      "citation": "By-law 93-93, Schedule XXIX",
+      "_original_filename": "Traffic_93-93_-_9393S29.pdf"
+    },
+    "576e63c46262bf1b515b844d40236c40a40320954a502c419f89770d42d1599a": {
+      "citation": "By-law 93-93, Schedule X",
+      "_original_filename": "Traffic_93-93_-_9393S10.pdf"
+    },
+    "60fd2589a91dfc1a3f330c1a54a3bf48257461611dd0ba675ad709696d8c2234": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 34",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_34_Bicycle_Lanes.pdf"
+    },
+    "9740eca6047c1cbf01d516cc649147c37d7535325a16e684a1d4744544de45ce": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 17",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_17_Load_on_Bridges.pdf"
+    },
+    "c62414b8f0655909ffb53fa324092471556647925de7437f45b1bdd13b5b30ea": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 6",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_06_Off_Street_Parking_Lots.pdf"
+    },
+    "ac8e35c5b0b26bdcde0c40f37a1146a56e67955a354219037bbba59a9afe7b1f": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 9",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_09_One_Way_Traffic.pdf"
+    },
+    "00752384cc43f40283a9a34f5988d1e0c7083daf99fae6857b59e402ca0a8d0b": {
+      "citation": "By-law 93-93, Schedule XXXVII",
+      "_original_filename": "Traffic_93-93_-_9393S37.pdf"
+    },
+    "854cba9b6dda733d8c184356d4c59455202b1c289aabc2944306127ce36407b6": {
+      "citation": "By-law 93-93, Schedule XXI",
+      "_original_filename": "Traffic_93-93_-_9393S21.pdf"
+    },
+    "4f5846f7ec6f88157f502434ec1ad0e94759ac91ae9d1eeef8bacf76030afa9d": {
+      "citation": "By-law 93-93, Schedule IX",
+      "_original_filename": "Traffic_93-93_-_9393S09.pdf"
+    },
+    "c89df0aabe45714b22c1decdd0611eef37cc169563dad1eea72a4519fc1265ef": {
+      "citation": "By-law 93-93, Schedule VIII",
+      "_original_filename": "Traffic_93-93_-_9393S08.pdf"
+    },
+    "e733c61fdc12cf3d0aa69c788ff1cc4927e3251089053009d939eb19fc48af39": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 15",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_15_Lane_Designation.pdf"
+    },
+    "938baf6fb0ef94dd7ace0e583d9443ddbe84ad5c1dca6d84085f547fee39540f": {
+      "citation": "By-law 93-93, Schedule VII",
+      "_original_filename": "Traffic_93-93_-_9393S07.pdf"
+    },
+    "40ab256133818f170147a1eaaba52ceee9fd3acfc2379e8f5c81e4baff7fd012": {
+      "citation": "By-law 93-93, Schedule XXXIV",
+      "_original_filename": "Traffic_93-93_-_9393S34.pdf"
+    },
+    "16a8c795d1624a2bdee1d16fca7cd51fb13cc3f59a8f83a3a635ba8c6eb3496c": {
+      "citation": "By-law 93-93, Schedule I",
+      "_original_filename": "Traffic_93-93_-_9393S01.pdf"
+    },
+    "31e7b56ba03a2e1aa777c8ed0eb6952353ad3cf8257f303fdeaf2feec6e4cbc7": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 35",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_35_Multi_Use_Trails.pdf"
+    },
+    "07f9054b3f82ddd99d7adaa53693a190f05be0e1330f46fa22abd8a7916c6e16": {
+      "citation": "By-law 93-93, Schedule XVII",
+      "_original_filename": "Traffic_93-93_-_9393S17.pdf"
+    },
+    "13cd5e96b409123ed4536bf09151b59cba8e31f5e748e399852377e736593719": {
+      "citation": "By-law 93-93, Schedule V",
+      "_original_filename": "Traffic_93-93_-_9393S05.pdf"
+    },
+    "b70561430873f1496f1a42bb43b6fae55b85f3eec03be3ebab3403a20fcaf273": {
+      "citation": "By-law 93-93, Schedule IV",
+      "_original_filename": "Traffic_93-93_-_9393S04.pdf"
+    },
+    "5d0f89239a79db14a44cb7aaeef18b4be69d2dc144316f68d2deba971d31cd8d": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 30",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_30_Major_Collector_and_Arterial_Roadways.pdf"
+    },
+    "05bc00ea0cc1b213d25b83694912b0f50fa14f61f23cebc75d08d59ce9ff3419": {
+      "citation": "By-law 93-93, Schedule XXIV",
+      "_original_filename": "Traffic_93-93_-_9393S24.pdf"
+    },
+    "8f6a5b00232bbabfc2f5ec745ada01e1549173057c53adb199dcbf61a0821f3d": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 11",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_11_Stop_Signs.pdf"
+    },
+    "a626e1cdf92dc67e5b74a899fbc8d38b6eb0cde8607ab717344ba6096c55f00a": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 18",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_18_Maximum_Rate_of_Speed.pdf"
+    },
+    "53fea2f66861f1e34ce32c5132d2e8e0eaf34e6377b84f2328756f7498d8e4c2": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 29",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_29_Designated_On_Street_Parking_for_the_Disabled.pdf"
+    },
+    "4cb2e4d0b15a503094d3a7ba04775eeece16d631fc477aa48bd2a1d7335bffd1": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 33",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_33_High_Occupancy_Vehicle_Lane_Designation.pdf"
+    },
+    "7f0648340f3358352f97b1e3724afc20540db8233aa66b48bdcebe7eb8c94a57": {
+      "citation": "By-law 93-93, Schedule VI",
+      "_original_filename": "Traffic_93-93_-_9393S06.pdf"
+    },
+    "37449a3bb8bd62dadcb548c55b5178fede3de63fcbae10f8dce557829902f433": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 8",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_08_Permit_Parking.pdf"
+    },
+    "fd55520963829882417c7e038bad5ef58e26d63fc76a59606c8f180fa167fd08": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 21",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_21_Prohibited_Pedestrian_Crossing.pdf"
+    },
+    "ae7017c0559006330948305ef8789c0910aa12b281f4ec61df6c905bd5fb2b64": {
+      "citation": "By-law 93-93, Schedule XIX",
+      "_original_filename": "Traffic_93-93_-_9393S19.pdf"
+    },
+    "76b5c9b6a9712ffc2adca0803f038df1ea6e23a42bc194b4c4307fda1a4bc3be": {
+      "citation": "By-law 93-93, Schedule XV",
+      "_original_filename": "Traffic_93-93_-_9393S15.pdf"
+    },
+    "c8edc6baf5d7595db7a473247c74b7e1a0e9cdd9cf3c0b622021b52bf822a67f": {
+      "citation": "By-law 93-93, Schedule III",
+      "_original_filename": "Traffic_93-93_-_9393S03.pdf"
+    },
+    "e827cbb467e59bf04af77a8c37e2da2e3065ac51ac22c1da715778c7f7daeafb": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 38",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_38_Car_Share_parking_Spaces.pdf"
+    },
+    "00acabbc38f2ccb288cc25ba3112ceab58ae4081d3a0a6447a46596fe3dcea25": {
+      "citation": "By-law 93-93, Schedule XXXVI",
+      "_original_filename": "Traffic_93-93_-_9393S36.pdf"
+    },
+    "7ef3779c60c51f793525447f4c4f960d9b4ca6dc61a4e3b1c42e668354e6b6cb": {
+      "citation": "By-law 93-93, Schedule II",
+      "_original_filename": "Traffic_93-93_-_9393S02.pdf"
+    },
+    "ff8eb6f726dc6849409b16abb9c1be3908811d7a46fd5578e2ca0e461ee23495": {
+      "citation": "By-law 93-93, Schedule XXVII",
+      "_original_filename": "Traffic_93-93_-_9393S27.pdf"
+    },
+    "e86a6955085882989ef720052f08909bf484cf6f6095a941ae49e8ac83b3845f": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 31",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_31_Driveway_Boulevard_Parking_Curb_to_Sidewalk.pdf"
+    },
+    "38635e81f7ced8f9fe0f5120746bda15c8ee1023f94dafbac6549e6410bd899a": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 7A",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_07A_Parking_Machines.pdf"
+    },
+    "81e098f7767fa5eb9f36275a9dd76f50e429df5e136310b0af0b25e12bc64883": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 6A",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_06A_Paid_Off_Street_Parking_Lots.pdf"
+    },
+    "c3280fb7bab1105af0178312ec839a2ca8a22a260e530002058bc24cc97de0b6": {
+      "citation": "By-law 93-93, Schedule XXXI",
+      "_original_filename": "Traffic_93-93_-_9393S31.pdf"
+    },
+    "e58b0fa95c1518bd2f2c93c5aec94dcdf5b5fa198329356ba83ce0e918278ef9": {
+      "citation": "By-law 93-93, Schedule XXXII",
+      "_original_filename": "Traffic_93-93_-_9393S32.pdf"
+    },
+    "f05c4fdd069c90e752504c3c34e4f5ba9e2d011809fc388a7478557d0e986ec8": {
+      "citation": "By-law 93-93, Schedule XXXV",
+      "_original_filename": "Traffic_93-93_-_9393S35.pdf"
+    },
+    "9ce596f24c29893c41f96a58e2a4b4f3d433c4fa2e28c06bd66fa47c890f69a4": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 12",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_12_Yield_Signs.pdf"
+    },
+    "7d1afd8389002e19fbfb63cc83124ed80c3538fc2f27f4d440e29a98d8a9447d": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 39",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_39_Industrial_Increased_Penalty_Highways.pdf"
+    },
+    "776def5c7a79f0b06ab2e74d920618a2b0cc862172f2ac08e7e3bd7b2564abb5": {
+      "citation": "By-law 93-93, Schedule XX",
+      "_original_filename": "Traffic_93-93_-_9393S20.pdf"
+    },
+    "809cb1724036804cbefc6fac238b849aeff5187b0fe7bd6b42d5be2248620f80": {
+      "citation": "By-law 93-93, Schedule XVI",
+      "_original_filename": "Traffic_93-93_-_9393S16.pdf"
+    },
+    "71d229bc0c8a4979912b14e7c1ba150030636d8f62a9fe70debd3a57eff923e9": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 27",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_27_Bicycle_Path.pdf"
+    },
+    "b226efec24ee2459f4db92fcf72fd0f6bbe704ccb02c6b2af882d1ced496bd37": {
+      "citation": "By-law 93-93, Schedule XXXIX",
+      "_original_filename": "Traffic_93-93_-_9393S39.pdf"
+    },
+    "ee90c094107a9ef3df3ed027fb89eccee5f66a9b9cd4b573312aa0b889d45f8d": {
+      "citation": "By-law 93-93, Schedule XXXVIII",
+      "_original_filename": "Traffic_93-93_-_9393S38.pdf"
+    },
+    "2e19e0a852747939de9dee3382926067c583e37d8aa3cd1e14fd647c718ec0f0": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 26",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_26_No_Parking_Commercial_Motor_Vehicles.pdf"
+    },
+    "2e69495821b138674dfa20cc059bbda1cbde44d9c526c910eae672d6b40f2135": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 4",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_04_No_Stopping.pdf"
+    },
+    "40d1e167f721ccdf9737097845c1d36c741ef7eb178c53066a56a6a2a6ca857c": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 37",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_37_Electric_Vehicle_Charging_Station_Spaces.pdf"
+    },
+    "55c115778438ffc143e5c54f83b5a85ce9b7d249d0adbaf49889193e52349765": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 1",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_01_Five_Hour_Parking_Limit_Exemption.pdf"
+    },
+    "349860b14d31cdeb633e2a5d59314f922a5f0816a85118a3eb3973c7b90414b2": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 19",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_19_Prohibited_U_Turns.pdf"
+    },
+    "8efbc8211485b95c1a28fbfd7d29304a0fd287e4b804346a106acc098992a970": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 16",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_16_Load_Restrictions.pdf"
+    },
+    "d6a4ae311b7b5a356729b7c0250f6c4d6c30f2568258778156b96d3bd470de96": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 14",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_14_Prohibited_Turns.pdf"
+    },
+    "c22f4ca447f3814b9756773abf4157dec1be91d4ef89ade5d8a59334ed491e7d": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 2",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_02_Permitted_Angle_Parking.pdf"
+    },
+    "be067fa477196edcaf3f4ba4e8d2f70294094e0c34d6ac8c8495687e4d728b1f": {
+      "citation": "By-law 93-93, Schedule XI",
+      "_original_filename": "Traffic_93-93_-_9393S11.pdf"
+    },
+    "6e34bbcf2e795401d6f5f9d4575aaa3d60483c9136e508be36f53b7ad38b751c": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 24",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_24_Prohibited_Entry.pdf"
+    },
+    "87802e28bf47877c21a261cc1646e0d63d18eca1a30c4bfd538763ba58cca93b": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 25",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_25_Authorized_Signs.pdf"
+    },
+    "7dc15c0203fe58d62bda224a8c246b93a09fbdeba2894230cb31a19553d44034": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 32",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_32_Community_Safety_Zones.pdf"
+    },
+    "10b32b3781c508616d32c135ca81c4ff2ef7edf3fc8b3bdc5908b560aa0e2174": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 13",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_13_No_Heavy_Vehicles.pdf"
+    },
+    "d4cd461566bf3c04cca0b0dcd86f813b5d2ddad8cd70f6c380b1d4479aefc7d8": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 8A",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_08A_Off_Street_Permit_Parking.pdf"
+    },
+    "d122c06538500bdcd56b03aac6c7c659e99db7e12473a1290b0882f83d647a48": {
+      "citation": "By-law 93-93, Schedule XXV",
+      "_original_filename": "Traffic_93-93_-_9393S25.pdf"
+    },
+    "72f318d6d3e859e4f5df5f6d7f2f07b18eed3777c066d92dbc17c81b0813fbaf": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 23",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_23_Taxicab_Stands.pdf"
+    },
+    "861539032325ea0e21eacf8163a5708cb4206ef0e870f87b4ef325d2affcd3e0": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 22",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_22_Commercial_Vehicle_Loading_Zones.pdf"
+    },
+    "90934cdcb90f592bdd9a274e81420805651d41155ebfeff9b441d040a34daf54": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 28",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_28_No_Parking_Permitted_on_the_Untravelled_Portion_of_Collector_and_Local_Roadway.pdf"
+    },
+    "0ca6977ab94e4520f863b07682d38b5ed34ed18017bf93941dc1e2329bf16d76": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 10",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_10_Through_Highways.pdf"
+    },
+    "7721f9124ce83950c9cacdf56595f5312fe1aa6fc7487e6f728fd9a1e1f32915": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 7",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_07_Parking_Meter_Control.pdf"
+    },
+    "832c06732bab19dadd45e821e0c5fa0d0e5e20d146edd454c042131b1f9e95bb": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 36",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_36_Designated_Area_Maximum_Rate_of_Speed.pdf"
+    },
+    "f0192be7982037959c65fbe25248e8d9c15627a66409fe40e7af68cdd2f500bd": {
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 20",
+      "citation_basis": "schedule number printed in document; parent by-law number per schedule heading \"The Traffic By-law\" (number printed on some schedules only)",
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_20_School_Bus_Loading_Zones.pdf"
+    },
+    "48e0e68f24be2d13ce483ec79ef38575ed52f09bc541fd9ee61b6bdc388f1c8d": {
+      "citation": "By-law 93-93, Schedule XXIII",
+      "_original_filename": "Traffic_93-93_-_9393S23.pdf"
+    },
+    "f890fdcbe29dfaa0a931f84ca8920bd262a09a72e400db040bcdf579ed05a564": {
+      "citation": "By-law 93-93, Schedule XLI",
+      "_original_filename": "Traffic_93-93_-_9393S41.pdf"
+    },
+    "e4ebb8a5424ffcf86afafdd20d58fd9641099daa2aa09caf9463c36104a9e204": {
+      "_original_filename": "Traffic_Parking_By-law_-_Schedule_07B_Parking_Machines_in_Mississauga_Transitway_Stations_City_Parks_Marinas_Golf_Course.pdf",
+      "source_id": "mississauga-bylaw-0555-2000-sched-7b",
+      "title": "Mississauga Traffic By-law 0555-2000 — Schedule 7B: Parking Machines in Mississauga Transitway Stations, City Parks, Marina, Golf Course",
+      "title_basis": "document text",
+      "municipality": "mississauga",
+      "jurisdiction_label": "Municipal — Mississauga",
+      "municipality_basis": "schedule heading 'The Traffic By-law 0555-2000' printed on the document; schedule title refers to Mississauga Transitway stations",
+      "issuing_authority": "Council of The Corporation of the City of Mississauga",
+      "territorial_application": "City of Mississauga",
+      "parent_bylaw": "0555-2000",
+      "schedule_number": "7B",
+      "doc_type": "by-law schedule",
+      "bylaw_number": "0555-2000",
+      "citation": "By-law 0555-2000, Schedule 7B",
+      "citation_basis": "by-law and schedule number printed in document"
+    }
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "_comment": "Authority cards. Editorial drafts: review_status 'interpretation-drafted' until a qualified review record exists. Every citation must resolve to an installed in-force provision and every quote must appear verbatim (checked at build time). Summaries are drafted plain-language aids and never replace the quoted thresholds.",
+  "entries": [
+    {
+      "entry_id": "auth-arrest-peace-officer-warrantless",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest without warrant — peace officer (Criminal Code s. 495)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest a person without a warrant for a criminal offence.",
+        "permits": "Sets out when a peace officer may arrest without a warrant. Subsection (2) limits warrantless arrest for certain offence categories where listed public-interest conditions are met.",
+        "who": "A peace officer (defined in Criminal Code s. 2).",
+        "territorial_scope": "Federal criminal law applying in Canada. Paragraph (1)(c) refers to a warrant in force within the territorial jurisdiction in which the person is found.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold — paragraph (1)(a)", "text": "on reasonable grounds, he believes has committed or is about to commit an indictable offence"},
+          {"citation": 0, "label": "Threshold — paragraph (1)(b)", "text": "a person whom he finds committing a criminal offence"},
+          {"citation": 0, "label": "Threshold — paragraph (1)(c)", "text": "he has reasonable grounds to believe that a warrant of arrest or committal, in any form set out in Part XXVIII in relation thereto, is in force within the territorial jurisdiction in which the person is found"},
+          {"citation": 1, "label": "Limitation", "text": "A peace officer shall not arrest a person without warrant for"}
+        ],
+        "conditions": [
+          "One of paragraphs 495(1)(a), (b) or (c) must be satisfied on the facts known to the officer.",
+          "For offences described in s. 495(2)(a)–(c), the limitation in s. 495(2)(d)–(e) must be considered (public interest and attendance in court)."
+        ],
+        "limits": [
+          "Section 495(2) limits warrantless arrest for the offence categories it lists.",
+          "This card does not authorize entry into a dwelling-house to make the arrest — see the Entry cards.",
+          "Use of force is governed separately (Criminal Code s. 25 is shown for reference)."
+        ],
+        "judicial_authorization": "Not required by s. 495 itself. Arrest under a warrant, and entry into a dwelling to arrest, are separate pathways.",
+        "not_authority_for": ["Entering a dwelling-house to arrest (see Entry)", "Searching the person or a place (see Search)", "Detaining property (see Seizure)"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b", "right-charter-9", "right-ycja-25-counsel"],
+        "linked_cautions": ["caution-rights-to-counsel", "caution-primary"],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record the facts known at the time that relate to the paragraph relied on.", "Record how the s. 495(2) considerations were addressed where they apply."],
+        "follow_up": ["Release or taking before a justice — see Release cards (ss. 498 and 503)."],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police can arrest without a warrant only in the situations this section lists, and some arrests are limited by subsection (2).",
+          "plain": "A peace officer may arrest without a warrant if one of the three listed situations applies. For some less serious offence types, subsection (2) says not to arrest when the listed public-interest needs can be met another way and the person is expected to attend court.",
+          "detailed": "Section 495(1) gives three grounds for warrantless arrest. Section 495(2) restricts arrest for offences in the categories it lists unless the officer believes on reasonable grounds that the public interest (identity, evidence, preventing continuation or repetition) cannot be satisfied without arrest, or that the person will fail to attend court. Section 495(3) addresses the consequences of non-compliance with (2)."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "495(1)", "excerpt_contains": "A peace officer may arrest without warrant"},
+        {"role": "limit", "source_id": "ca-criminal-code", "path": "495(2)", "excerpt_contains": "the public interest, having regard to all the circumstances"},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "495(3)", "excerpt_contains": "is deemed to be acting lawfully"},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "25(1)", "excerpt_contains": "using as much force as is necessary"},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "2[def:peace-officer]", "excerpt_contains": "a police officer, police constable"}
+      ]
+    },
+    {
+      "entry_id": "auth-arrest-any-person",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest without warrant — any person (Criminal Code s. 494)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest without a warrant by any person, including property owners and people they authorize.",
+        "permits": "Reference for arrests made by persons other than peace officers, and the duty to deliver the person to a peace officer.",
+        "who": "Any one; owners or lawful possessors of property and persons they authorize (s. 494(2)).",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold — paragraph (1)(a)", "text": "a person whom he finds committing an indictable offence"},
+          {"citation": 0, "label": "Threshold — paragraph (1)(b)", "text": "a person who, on reasonable grounds, he believes"},
+          {"citation": 0, "label": "Property — subsection (2)", "text": "may arrest a person without a warrant if they find them committing a criminal offence on or in relation to that property"},
+          {"citation": 0, "label": "Delivery — subsection (3)", "text": "shall forthwith deliver the person to a peace officer"}
+        ],
+        "conditions": ["One of the situations in s. 494(1) or (2) applies.", "A person other than a peace officer who arrests must forthwith deliver the person to a peace officer (s. 494(3))."],
+        "limits": ["Section 494(2)(b) requires a belief on reasonable grounds that it is not feasible for a peace officer to make the arrest when the arrest is made after the offence."],
+        "judicial_authorization": "Not applicable.",
+        "not_authority_for": ["Search or entry"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record who made the arrest, the facts relied on, and the time the person was delivered to police."],
+        "follow_up": ["On delivery, police obligations begin (see Rights and Release cards)."],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Anyone may arrest in the limited situations listed, and must hand the person to police right away.",
+          "plain": "This section lets members of the public, and property owners or their authorized staff, arrest in narrow situations. They must hand the person over to a peace officer immediately.",
+          "detailed": "Section 494(1) covers finding a person committing an indictable offence, or reasonable belief of a criminal offence plus escape and fresh pursuit. Section 494(2) covers owners and lawful possessors of property and persons they authorize. Section 494(3) imposes the delivery duty."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "494", "excerpt_contains": ["Any one may arrest without warrant", "shall forthwith deliver the person to a peace officer"]}
+      ]
+    },
+    {
+      "entry_id": "auth-arrest-breach-of-peace",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest for breach of the peace (Criminal Code s. 31)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest a person found committing, or believed about to join in or renew, a breach of the peace.",
+        "permits": "Justifies a peace officer who witnesses a breach of the peace (and those lawfully assisting) in arresting as described.",
+        "who": "A peace officer who witnesses a breach of the peace, and every one who lawfully assists the peace officer.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold", "text": "who witnesses a breach of the peace"},
+          {"citation": 0, "label": "Threshold", "text": "on reasonable grounds, he believes is about to join in or renew the breach of the peace"}
+        ],
+        "conditions": ["The officer witnesses a breach of the peace."],
+        "limits": ["'Breach of the peace' is not defined in the installed text; its meaning comes from case law that is not installed."],
+        "judicial_authorization": "Not applicable.",
+        "not_authority_for": ["Laying a charge (breach of the peace is not itself an offence in the installed text)"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b", "right-charter-9"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record what was witnessed."],
+        "follow_up": ["Release considerations (see Release cards)."],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "An officer who sees a breach of the peace may arrest people taking part, or about to join or restart it.",
+          "plain": "If an officer actually witnesses a breach of the peace, the officer (and people lawfully helping) may arrest those committing it or reasonably believed to be about to join or renew it.",
+          "detailed": "Section 31(1) is a justification provision tied to a witnessed breach of the peace. The scope of 'breach of the peace' must be taken from case law, which is not installed."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "31(1)", "excerpt_contains": "Every peace officer who witnesses a breach of the peace"}
+      ]
+    },
+    {
+      "entry_id": "auth-arrest-hta-217",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest without warrant — listed Highway Traffic Act contraventions (HTA s. 217(2))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest without a warrant for the specific Highway Traffic Act contraventions listed in s. 217(2).",
+        "permits": "Provincial arrest power limited to the listed provisions.",
+        "who": "Any police officer.",
+        "territorial_scope": "Ontario.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold", "text": "on reasonable and probable grounds, believes that a contravention of any of the provisions of"},
+          {"citation": 0, "label": "Listed provisions include", "text": "subsection 216 (1) has been committed"}
+        ],
+        "conditions": ["The contravention believed to have been committed is one of those listed in s. 217(2)."],
+        "limits": ["A contravention not listed in s. 217(2) is not covered by this subsection.", "Related duties when arresting without warrant appear in s. 217(4) and (6) (shown in the source)."],
+        "judicial_authorization": "Not required by s. 217(2).",
+        "not_authority_for": ["Criminal Code arrests (see s. 495)", "Search of the vehicle (not established by this card)"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b", "right-charter-9"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record which listed provision was relied on."],
+        "follow_up": ["Provincial Offences Act release provisions apply to provincial arrests; review the POA in the Statutes browser."],
+        "gaps": ["gap-ontario-regulations", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police may arrest without a warrant for the specific traffic contraventions listed in this subsection.",
+          "plain": "Section 217(2) lists particular Highway Traffic Act provisions. If an officer believes on reasonable and probable grounds that one of them was contravened, the officer may arrest without a warrant.",
+          "detailed": "The power is limited to the enumerated provisions in s. 217(2). Other subsections of s. 217 address arrests on view by any person, detaining the vehicle on arrest and the duties of the arresting person."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "on-highway-traffic-act", "path": "217(2)", "excerpt_contains": "may arrest, without warrant, the person he or she believes committed the contravention"},
+        {"role": "related", "source_id": "on-highway-traffic-act", "path": "217(4)", "excerpt_contains": "making an arrest without wa"},
+        {"role": "obligation", "source_id": "on-highway-traffic-act", "path": "217(6)", "excerpt_contains": "making an arrest without wa"}
+      ]
+    },
+    {
+      "entry_id": "auth-arrest-trespass",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest without warrant on premises — trespass (Trespass to Property Act s. 9)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest a person believed to be on premises in contravention of s. 2 of the Trespass to Property Act.",
+        "permits": "Arrest by a police officer, the occupier or a person authorized by the occupier, with a delivery duty for non-police arrests.",
+        "who": "A police officer, the occupier of premises, or a person authorized by the occupier.",
+        "territorial_scope": "Ontario.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold", "text": "he or she believes on reasonable and probable grounds to be on the premises in contravention of section 2"},
+          {"citation": 1, "label": "Delivery", "text": "shall promptly call for the assistance of a police officer and give the person arrested into the custody of the police officer"}
+        ],
+        "conditions": ["Belief on reasonable and probable grounds that the person is on the premises in contravention of s. 2."],
+        "limits": ["The person must be on the premises (s. 9(1))."],
+        "judicial_authorization": "Not applicable.",
+        "not_authority_for": ["Removing property or searching"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record the basis for believing the person is on the premises in contravention of s. 2 (for example who gave notice or direction)."],
+        "follow_up": ["A police officer receiving custody is deemed to have arrested the person for Provincial Offences Act release purposes (s. 9(3), in source)."],
+        "gaps": ["gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police, the occupier or someone the occupier authorizes may arrest a person they reasonably believe is trespassing on the premises.",
+          "plain": "Under s. 9, police or the occupier (or someone they authorize) may arrest a person they believe on reasonable and probable grounds is on the premises contrary to s. 2. Non-police must promptly call police and hand the person over.",
+          "detailed": "Section 9(1) is tied to a contravention of s. 2 while the person is on the premises. Section 9(2) imposes a delivery duty; s. 9(3) deems the receiving officer to have arrested for POA release purposes."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "on-trespass-to-property-act", "path": "9(1)", "excerpt_contains": "may arrest without warrant any person"},
+        {"role": "obligation", "source_id": "on-trespass-to-property-act", "path": "9(2)", "excerpt_contains": "give the person arrested into the custody of the police officer"},
+        {"role": "related", "source_id": "on-trespass-to-property-act", "path": "9(3)", "excerpt_contains": "shall be deemed to have arrested the person"}
+      ]
+    },
+    {
+      "entry_id": "auth-arrest-intoxication-llca",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest without warrant — intoxication in a public place (LLCA, 2019 s. 31(2))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest a person contravening s. 31(1) (intoxicated condition in specified places) where necessary for safety.",
+        "permits": "Provincial arrest power with a safety-necessity condition.",
+        "who": "A police officer or conservation officer.",
+        "territorial_scope": "Ontario.",
+        "quotes": [
+          {"citation": 0, "label": "Prohibition", "text": "No person shall be in an intoxicated condition in,"},
+          {"citation": 1, "label": "Threshold", "text": "if, in the opinion of the officer, it is necessary to do so for the safety of any person"}
+        ],
+        "conditions": ["The person is contravening s. 31(1).", "In the officer's opinion, arrest is necessary for the safety of any person."],
+        "limits": ["Arrest is conditional on the safety necessity stated in s. 31(2)."],
+        "judicial_authorization": "Not applicable.",
+        "not_authority_for": ["Criminal 'cause disturbance' arrests (see Criminal Code s. 495 and s. 175)"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b", "right-charter-9"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record the place, the observations of intoxication and why arrest was necessary for safety."],
+        "follow_up": ["Release considerations under the Provincial Offences Act (review in Statutes)."],
+        "gaps": ["gap-ontario-regulations", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police may arrest someone who is intoxicated in these public places only if arrest is needed to keep someone safe.",
+          "plain": "Being intoxicated in the places listed in s. 31(1) is prohibited. An officer may arrest without a warrant only if, in the officer's opinion, arrest is necessary for anyone's safety.",
+          "detailed": "Section 31(2) adds a safety-necessity condition to the warrantless arrest power for contraventions of s. 31(1)."
+        }
+      },
+      "citations": [
+        {"role": "element", "source_id": "on-liquor-licence-and-control-act-2019", "path": "31(1)", "excerpt_contains": "No person shall be in an intoxicated condition in,"},
+        {"role": "basis", "source_id": "on-liquor-licence-and-control-act-2019", "path": "31(2)", "excerpt_contains": "may arrest without warrant any person who is contravening subsection (1)"}
+      ]
+    },
+    {
+      "entry_id": "auth-arrest-poa",
+      "kind": "authority", "category": "arrest",
+      "title": "Arrest without warrant — provincial offences (POA ss. 144(2) and 145)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Arrest on a provincial warrant believed to be in force in Ontario, or arrest of a person escaping and freshly pursued.",
+        "permits": "Provincial Offences Act arrest powers shown for reference.",
+        "who": "A police officer (s. 144(2)); any person (s. 145).",
+        "territorial_scope": "Ontario.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold — s. 144(2)", "text": "has reasonable and probable grounds to believe that a warrant is in force in Ontario"},
+          {"citation": 1, "label": "Threshold — s. 145", "text": "has committed an offence and is escaping from and freshly pursued by a police officer who has lawful authority to arrest that person"}
+        ],
+        "conditions": ["For s. 144(2): belief on reasonable and probable grounds that a warrant is in force in Ontario.", "For s. 145: belief that the person committed an offence and is escaping from and freshly pursued by a police officer with lawful authority to arrest."],
+        "limits": ["Section 145 requires a person other than a police officer to deliver the arrested person to a police officer forthwith."],
+        "judicial_authorization": "Section 144(2) depends on a warrant in force.",
+        "not_authority_for": ["Criminal Code arrests"],
+        "linked_rights": ["right-charter-10a", "right-charter-10b"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record warrant details confirmed, or the fresh-pursuit facts."],
+        "follow_up": ["Review POA release provisions in Statutes."],
+        "gaps": ["gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police may arrest when they reasonably believe an Ontario warrant is in force. Anyone may arrest a person escaping from police who are chasing them.",
+          "plain": "Section 144(2) lets a police officer arrest without a warrant in hand if they have reasonable and probable grounds to believe a warrant is in force in Ontario. Section 145 lets any person arrest someone escaping from and freshly pursued by police, with a duty to hand them over.",
+          "detailed": "These POA provisions are narrow. Other POA arrest and release provisions should be reviewed in the Statutes browser."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "on-provincial-offences-act", "path": "144(2)", "excerpt_contains": "A police officer may arrest without warrant"},
+        {"role": "basis", "source_id": "on-provincial-offences-act", "path": "145", "excerpt_contains": "shall forthwith deliver the person arrested to a police officer"}
+      ]
+    },
+    {
+      "entry_id": "auth-detention-hta-stop",
+      "kind": "authority", "category": "detention",
+      "title": "Requiring a driver to stop (HTA s. 216(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "pathway": "statutory vehicle stop",
+        "action": "Require the driver of a vehicle (other than a bicycle) to stop.",
+        "permits": "Authorizes a police officer in the lawful execution of duties to require a driver to stop, and requires the driver to stop when signalled by a readily identifiable officer.",
+        "who": "A police officer, in the lawful execution of his or her duties and responsibilities.",
+        "territorial_scope": "Ontario highways (see HTA definitions in source).",
+        "quotes": [
+          {"citation": 0, "label": "Basis", "text": "in the lawful execution of his or her duties and responsibilities, may require the driver of a vehicle, other than a bicycle, to stop"},
+          {"citation": 0, "label": "Driver's duty", "text": "shall immediately come to a safe stop"}
+        ],
+        "conditions": ["The officer is acting in the lawful execution of his or her duties and responsibilities.", "The vehicle is not a bicycle."],
+        "limits": ["The scope of permissible purposes for a stop and what may follow it (questions, searches) are defined largely by case law that is not installed."],
+        "judicial_authorization": "Not required by s. 216(1).",
+        "not_authority_for": ["Searching the vehicle or occupants", "Demanding breath samples (see s. 320.27 card)", "Arrest (see arrest cards)"],
+        "linked_rights": ["right-charter-9", "right-charter-10a", "right-charter-10b"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-detention"],
+        "documentation": ["Record the purpose of the stop and what followed."],
+        "follow_up": ["If the stop becomes an investigative detention or arrest, reassess rights (Rights timeline)."],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "An officer doing lawful duties may ask a driver to stop, and the driver must stop safely.",
+          "plain": "Under s. 216(1), a police officer acting lawfully may require a driver (not a cyclist) to stop. When signalled by an identifiable officer, the driver must stop safely right away. What can happen after the stop depends on other rules.",
+          "detailed": "Section 216(1) supplies a statutory stop power and a corresponding driver duty; offences and penalties for failing to stop are in s. 216(2)–(3). The limits on purposes and follow-up actions are case-law dependent."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "on-highway-traffic-act", "path": "216(1)", "excerpt_contains": "shall immediately come to a safe stop"}
+      ]
+    },
+    {
+      "entry_id": "auth-detention-screening-demand",
+      "kind": "authority", "category": "detention",
+      "title": "Roadside screening demands (Criminal Code s. 320.27)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "pathway": "demand requiring the person to accompany the officer",
+        "action": "Make a screening demand (physical coordination tests, approved screening device, or approved drug screening equipment).",
+        "permits": "Subsection (1) permits demands on reasonable suspicion of alcohol or a drug in the body plus operation within the preceding three hours. Subsection (2) permits mandatory alcohol screening of a person operating a motor vehicle in the course of the lawful exercise of other powers.",
+        "who": "A peace officer.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold — s. 320.27(1)", "text": "has reasonable grounds to suspect that a person has alcohol or a drug in their body and that the person has, within the preceding three hours, operated a conveyance"},
+          {"citation": 1, "label": "Condition — s. 320.27(2)", "text": "If a peace officer has in his or her possession an approved screening device"},
+          {"citation": 1, "label": "Condition — s. 320.27(2)", "text": "in the course of the lawful exercise of powers under an Act of Parliament or an Act of a provincial legislature or arising at common law"}
+        ],
+        "conditions": ["For (1): reasonable suspicion of alcohol or a drug in the body and operation within the preceding three hours.", "For (2): approved screening device in possession, lawful exercise of other powers, and the person is operating a motor vehicle."],
+        "limits": ["'Approved screening device' and 'approved drug screening equipment' depend on federal approval orders that are not installed."],
+        "judicial_authorization": "Not required.",
+        "not_authority_for": ["Evidentiary breath or blood demands (see s. 320.28)", "Searching the vehicle"],
+        "linked_rights": ["right-charter-9", "right-charter-10a", "right-charter-10b"],
+        "linked_cautions": ["caution-breath-demand"],
+        "linked_checklists": ["checklist-detention"],
+        "documentation": ["Record the grounds for suspicion or the lawful power being exercised, the time of operation, the device used and the demand time."],
+        "follow_up": ["Results may support grounds under s. 320.28 (separate card is not provided in this package; see the Statutes browser)."],
+        "gaps": ["gap-federal-regulations", "gap-case-law", "gap-caution-wording", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police can demand a roadside test when the law's conditions are met, and the person must go with the officer for the test.",
+          "plain": "Subsection (1) requires a reasonable suspicion of alcohol or drugs plus driving in the last three hours. Subsection (2) allows alcohol screening of a driver when the officer has an approved device and is already lawfully exercising another power.",
+          "detailed": "Section 320.27 sets two distinct screening pathways with different thresholds. Approved-device definitions and interpretation of the demand requirements depend on material not installed."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "320.27(1)", "excerpt_contains": "the peace officer may, by demand, require the person"},
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "320.27(2)", "excerpt_contains": "require the person who is operating a motor vehicle to immediately provide the samples of breath"}
+      ]
+    },
+    {
+      "entry_id": "auth-detention-investigative-common-law",
+      "kind": "authority", "category": "detention",
+      "title": "Investigative detention (common law) — source not installed",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "common-law",
+        "pathway": "criminal investigative detention",
+        "action": "Briefly detain a person for investigation without arrest.",
+        "permits": "No statutory provision in the installed material creates a general investigative-detention power. Its existence, threshold and limits are set by case law that is not installed, so the app cannot state the legal test.",
+        "who": "Not established in installed material.",
+        "territorial_scope": "Not established in installed material.",
+        "quotes": [
+          {"citation": 0, "label": "Related Charter right", "text": "Everyone has the right not to be arbitrarily detained or imprisoned."},
+          {"citation": 1, "label": "Related Charter right", "text": "Everyone has the right on arrest or detention"}
+        ],
+        "conditions": ["Legal test not installed — review required."],
+        "limits": ["Do not treat this card as identifying an authority. Failure to find an authority in installed material is not proof that none exists, nor that one does."],
+        "judicial_authorization": "Not established in installed material.",
+        "not_authority_for": ["Search of the person (protective search is a separate common-law pathway; also not installed)"],
+        "linked_rights": ["right-charter-9", "right-charter-10a", "right-charter-10b"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "linked_checklists": ["checklist-detention"],
+        "documentation": ["Record the facts relied on; the applicable standard is not installed."],
+        "follow_up": ["Consult current service policy or legal advice."],
+        "gaps": ["gap-case-law", "gap-service-policy", "gap-legal-review"],
+        "summaries": {}
+      },
+      "citations": [
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:9", "excerpt_contains": "not to be arbitrarily detained"},
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "on arrest or detention"}
+      ]
+    },
+    {
+      "entry_id": "auth-apprehension-mha-17",
+      "kind": "authority", "category": "detention",
+      "title": "Mental Health Act apprehension — taking a person to examination (MHA s. 17)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "pathway": "custody / apprehension — not a criminal detention or arrest",
+        "action": "Take a person in custody to an appropriate place for examination by a physician.",
+        "permits": "A provincial apprehension pathway with combined conditions. It is not an arrest for an offence.",
+        "who": "A police officer.",
+        "territorial_scope": "Ontario.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold (part 1)", "text": "has reasonable and probable grounds to believe that a person is acting or has acted in a disorderly manner"},
+          {"citation": 0, "label": "Threshold (part 2)", "text": "has reasonable cause to believe that the person,"},
+          {"citation": 0, "label": "Threshold (part 3)", "text": "the police officer is of the opinion that the person is apparently suffering from mental disorder of a nature or quality that likely will result in,"},
+          {"citation": 0, "label": "Threshold (part 4)", "text": "that it would be dangerous to proceed under section 16"}
+        ],
+        "conditions": ["All four elements of the s. 17 threshold must be met: disorderly conduct; one of clauses (a)–(c); apparent mental disorder likely to result in one of (d)–(f); and danger in proceeding under s. 16."],
+        "limits": ["The destination is an appropriate place for examination by a physician.", "Section 33 requires the officer to remain and retain custody until the facility takes custody."],
+        "judicial_authorization": "Not required for s. 17. Section 16 (justice of the peace order) is a separate pathway.",
+        "not_authority_for": ["Arrest for an offence", "Search for evidence"],
+        "linked_rights": ["right-charter-9", "right-charter-10a", "right-charter-10b"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-mha-apprehension"],
+        "documentation": ["Record each threshold element separately, including why proceeding under s. 16 would be dangerous."],
+        "follow_up": ["Remain and retain custody (s. 33)."],
+        "gaps": ["gap-ontario-regulations", "gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police may take a person for a doctor's examination only when all the listed conditions are met. This is not an arrest.",
+          "plain": "Section 17 has several conditions that must all be met: disorderly behaviour, a listed risk sign, apparent mental disorder likely to cause listed serious harm, and danger in waiting for a justice's order. The officer must then stay until the facility takes custody.",
+          "detailed": "Section 17 combines a reasonable-and-probable-grounds belief, reasonable cause, an officer's opinion about apparent mental disorder and likely outcomes, and the danger of proceeding under s. 16. Post-apprehension duties are in s. 33; prescribed procedures depend on regulations not installed."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "on-mental-health-act", "path": "17", "excerpt_contains": "may take the person in custody to an appropriate place for examination by a physician"},
+        {"role": "obligation", "source_id": "on-mental-health-act", "path": "33", "excerpt_contains": "shall remain at the facility and retain custody"}
+      ]
+    },
+    {
+      "entry_id": "auth-search-warrant-487",
+      "kind": "authority", "category": "search",
+      "title": "Search warrant (Criminal Code s. 487)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "judicial-authorization",
+        "action": "Search a building, receptacle or place and seize things under a warrant issued by a justice.",
+        "permits": "A justice may issue a warrant on information on oath meeting the stated grounds. The warrant authorizes the named officer to search and seize, then return or report under s. 489.1.",
+        "who": "A peace officer or public officer named in the warrant.",
+        "territorial_scope": "As stated in the warrant and the Code (see source).",
+        "quotes": [
+          {"citation": 0, "label": "Issuing threshold", "text": "is satisfied by information on oath in Form 1 that there are reasonable grounds to believe that there is in a building, receptacle or place"},
+          {"citation": 0, "label": "After seizure", "text": "bring the thing seized before, or make a report in respect of it to, a justice in accordance with section 489.1"}
+        ],
+        "conditions": ["A justice issues the warrant on sworn information meeting s. 487(1)."],
+        "limits": ["The search is limited to what the warrant authorizes.", "Examining data on seized devices raises separate questions not resolved by installed material."],
+        "judicial_authorization": "Required — issued by a justice.",
+        "not_authority_for": ["Warrantless search (see s. 487.11 card)", "Examining device contents beyond the warrant's terms"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-seizure-report"],
+        "documentation": ["Keep the warrant, information and execution record; record items seized and continuity."],
+        "follow_up": ["Return or report to a justice under s. 489.1."],
+        "gaps": ["gap-device-contents", "gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "A justice can sign a warrant that lets named officers search a place for listed things and seize them.",
+          "plain": "Officers swear an information. If the justice is satisfied there are reasonable grounds to believe the listed things are in the place, the justice may issue a warrant to search and seize. Seized things must then be returned or reported to a justice.",
+          "detailed": "Section 487(1) sets the issuing standard and the categories of things. Execution limits and post-seizure duties (s. 489.1) apply; device-content examination is case-law dependent."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "487(1)", "excerpt_contains": "may at any time issue a warrant authorizing a peace officer"},
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "489.1(1)", "excerpt_contains": "the peace officer shall, as soon as is practicable"}
+      ]
+    },
+    {
+      "entry_id": "auth-search-exigent-487-11",
+      "kind": "authority", "category": "search",
+      "title": "Warrantless search in exigent circumstances (Criminal Code s. 487.11)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Exercise the search powers in s. 487(1) without a warrant.",
+        "permits": "Allows the s. 487(1) powers without a warrant only when the conditions for obtaining a warrant exist but exigent circumstances make obtaining one impracticable.",
+        "who": "A peace officer, or a public officer as described in the section.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold", "text": "if the conditions for obtaining a warrant exist but by reason of exigent circumstances it would be impracticable to obtain a warrant"}
+        ],
+        "conditions": ["The conditions for obtaining a warrant exist.", "Exigent circumstances make obtaining a warrant impracticable."],
+        "limits": ["'Exigent circumstances' is not defined in s. 487.11. The definition in s. 529.3(2) applies to that section only."],
+        "judicial_authorization": "Not obtained in advance; the warrant conditions must nonetheless exist.",
+        "not_authority_for": ["Entry into a dwelling to arrest (see s. 529.3)"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-seizure-report"],
+        "documentation": ["Record the warrant grounds and why obtaining a warrant was impracticable."],
+        "follow_up": ["Report seized things under s. 489.1."],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Officers may do what a warrant would allow without one only when they could get a warrant but an emergency makes it impractical.",
+          "plain": "This section allows warrant-type search powers without a warrant, but only if all the grounds for a warrant exist and urgent circumstances make getting one impracticable.",
+          "detailed": "Section 487.11 imports the conditions of s. 487(1) (or s. 492.1(1)) and adds an exigency requirement. Its interpretation is case-law dependent."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "487.11", "excerpt_contains": "without a warrant if the conditions for obtaining a warrant exist"},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "487(1)", "excerpt_contains": "A justice who is satisfied by information on oath in Form 1"}
+      ]
+    },
+    {
+      "entry_id": "auth-search-cdsa-11",
+      "kind": "authority", "category": "search",
+      "title": "Controlled substances search warrant and exigent exception (CDSA s. 11)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "judicial-authorization",
+        "action": "Search a place for controlled substances, precursors, offence-related property or evidence, and seize them.",
+        "permits": "A justice may issue a warrant (s. 11(1)). Subsection (7) permits the powers without a warrant in exigent circumstances when the warrant conditions exist.",
+        "who": "A peace officer.",
+        "territorial_scope": "Federal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Issuing threshold", "text": "is satisfied by information on oath that there are reasonable grounds to believe that"},
+          {"citation": 1, "label": "Exigent exception", "text": "if the conditions for obtaining a warrant exist but by reason of exigent circumstances it would be impracticable to obtain one"}
+        ],
+        "conditions": ["Warrant: justice satisfied on sworn information.", "Without warrant: warrant conditions exist and exigent circumstances make obtaining one impracticable."],
+        "limits": ["Scope limited to the things described in s. 11(1)."],
+        "judicial_authorization": "Required unless s. 11(7) applies.",
+        "not_authority_for": ["Search of a person on arrest (common law; not installed)"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-seizure-report"],
+        "documentation": ["Record grounds, exigency (if relied on), items seized and continuity."],
+        "follow_up": ["Report seized things as required by law (review CDSA and Criminal Code s. 489.1)."],
+        "gaps": ["gap-federal-regulations", "gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "A justice may allow a search for illegal drugs and related things. Without a warrant, only in an emergency when a warrant could have been granted.",
+          "plain": "Section 11(1) lets a justice issue a warrant to search a place for controlled substances and related things. Section 11(7) allows the same powers without a warrant only when the warrant grounds exist and urgency makes getting one impracticable.",
+          "detailed": "CDSA s. 11 parallels the Criminal Code warrant structure with its own categories of things; s. 11(7) is the exigent exception."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-controlled-drugs-and-substances-act", "path": "11(1)", "excerpt_contains": "issue a warrant authorizing a peace officer"},
+        {"role": "basis", "source_id": "ca-controlled-drugs-and-substances-act", "path": "11(7)", "excerpt_contains": "Where warrant not necessary"}
+      ]
+    },
+    {
+      "entry_id": "auth-search-incident-to-arrest",
+      "kind": "authority", "category": "search",
+      "title": "Search incident to arrest (common law) — source not installed",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "common-law",
+        "pathway": "evidentiary or safety search following arrest",
+        "action": "Search a person (and possibly surroundings) following a lawful arrest.",
+        "permits": "No installed statute sets out this power. Its existence, purposes and limits come from case law that is not installed, so the app cannot state the test.",
+        "who": "Not established in installed material.",
+        "territorial_scope": "Not established in installed material.",
+        "quotes": [{"citation": 0, "label": "Related Charter right", "text": "Everyone has the right to be secure against unreasonable search or seizure."}],
+        "conditions": ["Legal test not installed — review required."],
+        "limits": ["Protective (safety) searches and evidentiary searches are treated as separate pathways; neither is installed.", "Searching the contents of a seized phone is a separate question (see the device card)."],
+        "judicial_authorization": "Not established in installed material.",
+        "not_authority_for": ["Examining digital device contents"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record the purpose and scope of any search; the governing standard is not installed."],
+        "follow_up": [],
+        "gaps": ["gap-case-law", "gap-device-contents", "gap-legal-review"],
+        "summaries": {}
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:8", "excerpt_contains": "unreasonable search or seizure"}]
+    },
+    {
+      "entry_id": "auth-search-protective",
+      "kind": "authority", "category": "search",
+      "title": "Protective (safety) search (common law) — source not installed",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "common-law",
+        "pathway": "protective search — distinct from evidentiary search",
+        "action": "A limited search for officer or public safety.",
+        "permits": "Not established in installed material. Case law setting the threshold and scope is not installed.",
+        "who": "Not established in installed material.",
+        "territorial_scope": "Not established in installed material.",
+        "quotes": [{"citation": 0, "label": "Related Charter right", "text": "Everyone has the right to be secure against unreasonable search or seizure."}],
+        "conditions": ["Legal test not installed — review required."],
+        "limits": ["A protective search is not an evidentiary search."],
+        "judicial_authorization": "Not established in installed material.",
+        "not_authority_for": ["Searching for evidence"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": [],
+        "documentation": ["Record safety concerns and scope; the standard is not installed."],
+        "follow_up": [],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {}
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:8", "excerpt_contains": "unreasonable search or seizure"}]
+    },
+    {
+      "entry_id": "auth-search-consent",
+      "kind": "authority", "category": "search",
+      "title": "Consent search — not a substitute for legal authority",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "consent",
+        "pathway": "consent-based pathway",
+        "action": "Search with a person's consent.",
+        "permits": "The installed material does not set out when consent is valid, who may give it or how it may be withdrawn. Those questions come from case law that is not installed. Consent is not treated as a universal substitute for a legal authority.",
+        "who": "Not established in installed material.",
+        "territorial_scope": "Not established in installed material.",
+        "quotes": [{"citation": 0, "label": "Related Charter right", "text": "Everyone has the right to be secure against unreasonable search or seizure."}],
+        "conditions": ["Validity requirements not installed — review required."],
+        "limits": ["Do not rely on consent where a statute or warrant requirement applies without legal advice."],
+        "judicial_authorization": "Not applicable.",
+        "not_authority_for": ["Any action outside the scope the person actually agreed to"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": [],
+        "documentation": ["Record exactly what was asked, what was said in response, scope and any withdrawal."],
+        "follow_up": [],
+        "gaps": ["gap-case-law", "gap-service-policy", "gap-legal-review"],
+        "summaries": {}
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:8", "excerpt_contains": "unreasonable search or seizure"}]
+    },
+    {
+      "entry_id": "auth-seizure-489",
+      "kind": "authority", "category": "seizure",
+      "title": "Seizure of things not specified, and seizure without warrant (Criminal Code s. 489)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Seize things believed on reasonable grounds to be connected with an offence, while executing a warrant or while lawfully present in the execution of duties.",
+        "permits": "Subsection (1) applies when executing a warrant. Subsection (2) applies to an officer lawfully present in a place under a warrant or otherwise in the execution of duties.",
+        "who": "A person executing a warrant (s. 489(1)); a peace officer or public officer as described (s. 489(2)).",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Condition — s. 489(2)", "text": "who is lawfully present in a place pursuant to a warrant or otherwise in the execution of duties"},
+          {"citation": 0, "label": "Threshold", "text": "any thing that the officer believes on reasonable grounds"}
+        ],
+        "conditions": ["Lawful presence (for s. 489(2)).", "Belief on reasonable grounds that the thing falls within (a), (b) or (c)."],
+        "limits": ["This is a seizure power, not a search power.", "Seizing a device does not establish authority to examine its contents (see the device card)."],
+        "judicial_authorization": "Not required for s. 489(2) seizure when its conditions are met.",
+        "not_authority_for": ["Searching a place to find things", "Examining data on a seized device"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-seizure-report"],
+        "documentation": ["Record lawful-presence basis, grounds, item description and continuity."],
+        "follow_up": ["Return or report to a justice under s. 489.1."],
+        "gaps": ["gap-device-contents", "gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Officers lawfully in a place may take things they reasonably believe are linked to a crime, and must then report to a justice.",
+          "plain": "If an officer is lawfully present and reasonably believes something was obtained by, used in, or will be evidence of an offence, the officer may seize it. The officer must then return it or report to a justice.",
+          "detailed": "Section 489(1) extends seizure during warrant execution to unlisted items; s. 489(2) permits seizure without warrant where lawful presence and reasonable belief exist. Section 489.1 governs post-seizure duties."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "489", "excerpt_contains": ["Seizure without warrant", "may, without a warrant, seize any thing"]},
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "489.1(1)", "excerpt_contains": "report to a justice"}
+      ]
+    },
+    {
+      "entry_id": "auth-seizure-device-vs-contents",
+      "kind": "authority", "category": "seizure",
+      "title": "Seizing a device is not examining its contents",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "pathway": "device seizure — examination of contents is a separate question",
+        "action": "Distinguish taking physical possession of a phone or computer from looking at the data on it.",
+        "permits": "Section 489 addresses seizing things. No installed provision was identified as authorizing examination of a seized device's contents outside a warrant's terms. That question depends on warrant wording and on case law that is not installed.",
+        "who": "See s. 489.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [{"citation": 1, "label": "Related Charter right", "text": "Everyone has the right to be secure against unreasonable search or seizure."}],
+        "conditions": ["Seizure: see s. 489.", "Examination of contents: authority not identified in installed material."],
+        "limits": ["'No authority identified in the installed material' is not a statement that none exists."],
+        "judicial_authorization": "Examination of contents: not established in installed material.",
+        "not_authority_for": ["Unlocking or examining device contents"],
+        "linked_rights": ["right-charter-8"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-seizure-report"],
+        "documentation": ["Record the device's state when seized and that no examination was performed without established authority."],
+        "follow_up": ["Seek legal advice or a warrant as your service requires."],
+        "gaps": ["gap-device-contents", "gap-case-law", "gap-legal-review"],
+        "summaries": {}
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "489", "excerpt_contains": "Seizure without warrant"},
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:8", "excerpt_contains": "unreasonable search or seizure"}
+      ]
+    },
+    {
+      "entry_id": "auth-entry-dwelling-warrant",
+      "kind": "authority", "category": "entry",
+      "title": "Warrant to enter a dwelling-house to arrest (Criminal Code s. 529.1)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "judicial-authorization",
+        "action": "Enter a dwelling-house to arrest or apprehend a person, under a warrant in Form 7.1.",
+        "permits": "A judge or justice may authorize entry to arrest on sworn information meeting the stated grounds. Arrest authority alone does not supply entry authority.",
+        "who": "A peace officer authorized by the warrant.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Issuing threshold", "text": "is satisfied by information on oath that there are reasonable grounds to believe that the person is or will be present in the dwelling-house"}
+        ],
+        "conditions": ["The judge or justice is satisfied of presence and of one of paragraphs (a)–(c)."],
+        "limits": ["Entry is for the purpose of arresting or apprehending the person identified or identifiable by the warrant."],
+        "judicial_authorization": "Required (or s. 529.3 exigent exception).",
+        "not_authority_for": ["Searching the dwelling for evidence"],
+        "linked_rights": ["right-charter-8", "right-charter-10a", "right-charter-10b"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Keep the warrant and record execution details."],
+        "follow_up": ["Announcement requirements and their exceptions appear in nearby sections (review s. 529.4 in Statutes)."],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "To go into a home to arrest someone, police generally need a judge's or justice's warrant.",
+          "plain": "Section 529.1 lets a judge or justice issue a warrant allowing entry into a home to arrest a named or identifiable person if there are reasonable grounds to believe the person is or will be there and one of the listed arrest situations exists.",
+          "detailed": "Section 529.1 creates the Form 7.1 entry warrant. Entry to arrest is distinct from the arrest power itself; s. 529.3 provides the exigent exception."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "529.1", "excerpt_contains": "authorizing a peace officer to enter a dwelling-house"}
+      ]
+    },
+    {
+      "entry_id": "auth-entry-dwelling-exigent",
+      "kind": "authority", "category": "entry",
+      "title": "Entry into a dwelling-house to arrest without warrant — exigent circumstances (Criminal Code s. 529.3)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Enter a dwelling-house without a warrant for the purpose of arresting or apprehending a person.",
+        "permits": "Permitted only where the person is believed on reasonable grounds to be present, the conditions for a s. 529.1 warrant exist, and exigent circumstances make obtaining a warrant impracticable.",
+        "who": "A peace officer.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Threshold", "text": "if the peace officer has reasonable grounds to believe that the person is present in the dwelling-house, and the conditions for obtaining a warrant under section 529.1 exist but by reason of exigent circumstances it would be impracticable to obtain a warrant"},
+          {"citation": 0, "label": "Exigent circumstances include (a)", "text": "has reasonable grounds to suspect that entry into the dwelling-house is necessary to prevent imminent bodily harm or death to any person"},
+          {"citation": 0, "label": "Exigent circumstances include (b)", "text": "has reasonable grounds to believe that evidence relating to the commission of an indictable offence is present in the dwelling-house and that entry into the dwelling-house is necessary to prevent the imminent loss or imminent destruction of the evidence"}
+        ],
+        "conditions": ["Reasonable grounds to believe the person is present.", "Section 529.1 warrant conditions exist.", "Exigent circumstances make a warrant impracticable."],
+        "limits": ["Purpose limited to arresting or apprehending a person; it is not a search power."],
+        "judicial_authorization": "Not obtained in advance; the warrant conditions must exist.",
+        "not_authority_for": ["Searching the dwelling", "Entry for purposes other than arrest or apprehension"],
+        "linked_rights": ["right-charter-8", "right-charter-10a", "right-charter-10b"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record presence grounds, warrant grounds and the exigency relied on."],
+        "follow_up": [],
+        "gaps": ["gap-case-law", "gap-legal-review"],
+        "summaries": {
+          "very_simple": "Police may enter a home without a warrant to arrest someone only in an emergency, when they could have got a warrant and believe the person is inside.",
+          "plain": "All three conditions must be met: reasonable grounds to believe the person is inside, grounds that would justify a s. 529.1 warrant, and urgent circumstances making it impracticable to get one. The section gives two examples of urgent circumstances.",
+          "detailed": "Section 529.3(1) is an exception to the warrant requirement for entry to arrest; s. 529.3(2) gives a non-exhaustive definition of exigent circumstances for this section."
+        }
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "529.3", "excerpt_contains": ["Authority to enter dwelling without warrant", "Exigent circumstances"]},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "529.1", "excerpt_contains": "Warrant to enter dwelling-house"}
+      ]
+    },
+    {
+      "entry_id": "auth-release-498",
+      "kind": "authority", "category": "release",
+      "title": "Release after arrest without warrant (Criminal Code s. 498(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Release a person arrested without warrant by summons, appearance notice or undertaking.",
+        "permits": "Requires release as soon as practicable in the stated circumstances, subject to s. 498(1.1) and other provisions in source.",
+        "who": "A peace officer.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Obligation", "text": "a peace officer shall, as soon as practicable, release the person, if"},
+          {"citation": 1, "label": "Release principles", "text": "Subject to subsection (1.1)"}
+        ],
+        "conditions": ["Arrest was without warrant, for an offence other than one listed in s. 469.", "The person has not been taken before a justice or released under another provision of Part XVI."],
+        "limits": ["Subsection (1.1) and related provisions in source qualify the obligation."],
+        "judicial_authorization": "Not applicable.",
+        "not_authority_for": ["Holding the person beyond the time permitted (see s. 503)"],
+        "linked_rights": ["right-cc-503-justice", "right-charter-10c"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record the release decision and the release document used."],
+        "follow_up": ["If not released, see s. 503."],
+        "gaps": ["gap-legal-review"],
+        "summaries": {
+          "very_simple": "After an arrest without a warrant, the officer must release the person as soon as practicable in the situations listed, unless an exception applies.",
+          "plain": "For most offences, if a person was arrested without a warrant and not yet released or taken to a justice, the officer must release them as soon as practicable using a summons, appearance notice or undertaking, subject to the exceptions in the section.",
+          "detailed": "Section 498(1) is subject to s. 498(1.1). Review the surrounding Part XVI provisions in the Statutes browser for the full scheme."
+        }
+      },
+      "citations": [
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "498(1)", "excerpt_contains": "release the person"},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "498(1)", "excerpt_contains": "Subject to subsection (1.1)"}
+      ]
+    },
+    {
+      "entry_id": "auth-release-503",
+      "kind": "authority", "category": "release",
+      "title": "Taking an arrested person before a justice (Criminal Code s. 503(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "basis_type": "statutory",
+        "action": "Cause a person who has not been released to be taken before a justice.",
+        "permits": "Obligation with a 24-hour structure. The app does not calculate a deadline from this provision because no reviewed deadline rule is installed.",
+        "who": "A peace officer who arrests a person with or without warrant.",
+        "territorial_scope": "Federal criminal law applying in Canada.",
+        "quotes": [
+          {"citation": 0, "label": "Justice available within 24 hours", "text": "the person shall be taken before a justice without unreasonable delay and in any event within that period"},
+          {"citation": 0, "label": "Justice not available within 24 hours", "text": "the person shall be taken before a justice as soon as possible"}
+        ],
+        "conditions": ["The person has not been released under another provision of Part XVI or s. 705.1."],
+        "limits": ["Other provisions of s. 503 qualify this obligation (see source)."],
+        "judicial_authorization": "Not applicable.",
+        "deadline_rule": {"trigger": "time of arrest", "statutory_text": "within a period of 24 hours", "validated": false},
+        "not_authority_for": [],
+        "linked_rights": ["right-cc-503-justice"],
+        "linked_cautions": [],
+        "linked_checklists": ["checklist-after-arrest"],
+        "documentation": ["Record time of arrest, justice availability and time before a justice."],
+        "follow_up": [],
+        "gaps": ["gap-legal-review"],
+        "summaries": {
+          "very_simple": "If the person is not released, they must be taken before a justice quickly — within 24 hours if a justice is available.",
+          "plain": "If a justice is available within 24 hours, the person must be taken before a justice without unreasonable delay and within 24 hours. If not, as soon as possible.",
+          "detailed": "Section 503(1)(a)–(b) sets the timing structure. The app identifies the requirement but will not compute a deadline until a reviewed rule with triggers and exceptions exists."
+        }
+      },
+      "citations": [
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "503(1)", "excerpt_contains": "cause the person to be taken before a justice"}
+      ]
+    }
+  ]
+}

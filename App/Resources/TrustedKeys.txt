@@ -1,0 +1,3 @@
+# Ed25519 public keys (base64, raw 32 bytes) trusted for content packages. One per line.
+# phq-dev-2026: development key generated 2026-11-01. Replace with your own key before distribution (docs/UPDATES.md).
+Y1w4NSAaUNDpw61acPvVol2cCKla5c0ojLh0t66WuVQ=

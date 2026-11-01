@@ -1,0 +1,9 @@
+# Development-side ingestion tools (not used by the iPhone app at runtime).
+# Pinned to the versions used to build and test the 2026-11-01 development package.
+python-docx==1.2.0
+pdfplumber==0.11.10
+pdfminer.six==20260107
+cryptography==50.0.1
+pytest==9.1.1
+# System tools (install with your package manager): poppler-utils 24.02 (pdftotext, pdfinfo, pdftoppm),
+# LibreOffice 24.2 (soffice, DOC->DOCX), Tesseract 5.3 (OCR of image-only pages).

@@ -1,0 +1,123 @@
+{
+  "_comment": "Conditional post-action checklists. Items never complete themselves: every status must be entered by the user, and 'Not applicable' requires a reason. Deadlines are not calculated because no reviewed deadline rule exists.",
+  "entries": [
+    {
+      "entry_id": "checklist-after-arrest", "kind": "checklist", "category": "arrest",
+      "title": "After an arrest",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "trigger": "arrest",
+        "items": [
+          {"id": "reasons", "requirement": "Inform the person promptly of the reasons for the arrest", "trigger": "Arrest", "applicability": "All arrests", "citation": 0, "quote": "to be informed promptly of the reasons therefor;"},
+          {"id": "counsel", "requirement": "Inform the person of the right to retain and instruct counsel without delay", "trigger": "Arrest", "applicability": "All arrests", "citation": 0, "quote": "to retain and instruct counsel without delay and to be informed of that right; and"},
+          {"id": "youth-counsel", "requirement": "Young person: advise without delay of the right to counsel and give an opportunity to obtain counsel", "trigger": "Arrest of a young person", "applicability": "Person is a young person under the YCJA", "condition": "youth", "citation": 1, "quote": "be given an opportunity to obtain counsel"},
+          {"id": "youth-parent", "requirement": "Young person detained in custody pending appearance: notice to a parent", "trigger": "Detention in custody pending appearance", "applicability": "Young person detained in custody pending appearance (subject to s. 26(4))", "condition": "youth", "citation": 2, "quote": "notice of the arrest stating the place of detention and the reason for the arrest"},
+          {"id": "release", "requirement": "Consider release under s. 498(1) where it applies", "trigger": "Arrest without warrant", "applicability": "Arrest without warrant, offence not listed in s. 469, not otherwise released or taken before a justice", "citation": 3, "quote": "a peace officer shall, as soon as practicable, release the person, if"},
+          {"id": "justice", "requirement": "If not released, cause the person to be taken before a justice as set out in s. 503(1)", "trigger": "Not released", "applicability": "Person arrested and not released", "citation": 4, "quote": "cause the person to be taken before a justice to be dealt with according to law"},
+          {"id": "delivery", "requirement": "Arrest by a person other than a peace officer: deliver the person to a peace officer forthwith", "trigger": "Citizen or property-owner arrest", "applicability": "Arrest made under s. 494 by a non-peace officer", "condition": "citizen-arrest", "citation": 5, "quote": "shall forthwith deliver the person to a peace officer"}
+        ],
+        "gaps": ["gap-case-law", "gap-service-policy", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "on arrest or detention"},
+        {"role": "obligation", "source_id": "ca-youth-criminal-justice-act", "path": "25(2)", "excerpt_contains": "advised without delay"},
+        {"role": "obligation", "source_id": "ca-youth-criminal-justice-act", "path": "26(1)", "excerpt_contains": "give or cause to be given to a parent"},
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "498(1)", "excerpt_contains": "release the person"},
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "503(1)", "excerpt_contains": "taken before a justice"},
+        {"role": "obligation", "source_id": "ca-criminal-code", "path": "494", "excerpt_contains": "Delivery to peace officer"}
+      ]
+    },
+    {
+      "entry_id": "checklist-detention", "kind": "checklist", "category": "detention",
+      "title": "On detention",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "trigger": "detention",
+        "items": [
+          {"id": "authority", "requirement": "Identify the legal authority for the detention", "trigger": "Detention", "applicability": "All detentions", "citation": 0, "quote": "Everyone has the right not to be arbitrarily detained or imprisoned."},
+          {"id": "reasons", "requirement": "Inform the person promptly of the reasons", "trigger": "Detention", "applicability": "All detentions", "citation": 1, "quote": "to be informed promptly of the reasons therefor;"},
+          {"id": "counsel", "requirement": "Inform the person of the right to counsel", "trigger": "Detention", "applicability": "All detentions; timing standards are case-law dependent (not installed)", "citation": 1, "quote": "to retain and instruct counsel without delay and to be informed of that right; and"}
+        ],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:9", "excerpt_contains": "arbitrarily"},
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "on arrest or detention"}
+      ]
+    },
+    {
+      "entry_id": "checklist-seizure-report", "kind": "checklist", "category": "seizure",
+      "title": "After seizing a thing",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "trigger": "seizure",
+        "items": [
+          {"id": "return-or-report", "requirement": "As soon as practicable, return the thing and report to a justice, or bring it before / report to a justice, as s. 489.1(1) requires", "trigger": "Seizure under a warrant, s. 487.11, s. 489 or otherwise in the execution of duties", "applicability": "Seizures within s. 489.1(1)", "citation": 0, "quote": "the peace officer shall, as soon as is practicable,"},
+          {"id": "continuity", "requirement": "Record continuity of the item (who held it, when, where)", "trigger": "Seizure", "applicability": "All seizures", "general": true, "basis": "Evidence-handling practice (no installed statutory source; service policy not installed)."}
+        ],
+        "gaps": ["gap-service-policy", "gap-legal-review"]
+      },
+      "citations": [{"role": "obligation", "source_id": "ca-criminal-code", "path": "489.1(1)", "excerpt_contains": "report to a justice"}]
+    },
+    {
+      "entry_id": "checklist-identifying-information", "kind": "checklist", "category": "initial-interaction",
+      "title": "Attempting to collect identifying information (O. Reg. 400/23)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "trigger": "identifying-information",
+        "items": [
+          {"id": "limits", "requirement": "Confirm the attempt is not prohibited by s. 6 (racialized-group and arbitrariness limits)", "trigger": "Attempt to collect", "applicability": "Where the regulation applies", "citation": 0, "quote": "A police officer shall not attempt to collect identifying information about an individual from the individual if,"},
+          {"id": "inform-not-required", "requirement": "Inform the individual they are not required to provide identifying information (unless s. 7(2) applies)", "trigger": "Before attempting", "applicability": "Where the regulation applies", "citation": 1, "quote": "has informed the individual that the individual is not required to provide identifying information to the officer; and"},
+          {"id": "inform-why", "requirement": "Inform the individual why (unless s. 7(2) or (3) applies)", "trigger": "Before attempting", "applicability": "Where the regulation applies", "citation": 1, "quote": "has informed the individual why the officer is attempting to collect identifying information about the individual."},
+          {"id": "offer-document", "requirement": "Offer the document recording the attempt, and give it if wanted (unless s. 8(2) applies)", "trigger": "After attempting", "applicability": "Where the regulation applies", "citation": 2, "quote": "offer to give the individual a document that provides a record of the attempt; and"},
+          {"id": "record", "requirement": "Record the information required by s. 9", "trigger": "After attempting", "applicability": "Where the regulation applies", "citation": 3, "quote": "shall record the following:"}
+        ],
+        "gaps": ["gap-service-policy", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "limit", "source_id": "on-o-reg-400-23", "path": "6", "excerpt_contains": "done in an arbitrary way"},
+        {"role": "obligation", "source_id": "on-o-reg-400-23", "path": "7", "excerpt_contains": "Duties to inform"},
+        {"role": "obligation", "source_id": "on-o-reg-400-23", "path": "8", "excerpt_contains": "Document for individual"},
+        {"role": "obligation", "source_id": "on-o-reg-400-23", "path": "9", "excerpt_contains": "Police officer must record reason"}
+      ]
+    },
+    {
+      "entry_id": "checklist-mha-apprehension", "kind": "checklist", "category": "detention",
+      "title": "Mental Health Act s. 17 apprehension",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "trigger": "mha-apprehension",
+        "items": [
+          {"id": "grounds-disorderly", "requirement": "Record the grounds for believing the person is acting or has acted in a disorderly manner", "trigger": "Apprehension", "applicability": "All s. 17 apprehensions", "citation": 0, "quote": "is acting or has acted in a disorderly manner"},
+          {"id": "grounds-clause", "requirement": "Record which of clauses (a)–(c) and which of (d)–(f) apply, with facts", "trigger": "Apprehension", "applicability": "All s. 17 apprehensions", "citation": 0, "quote": "has reasonable cause to believe that the person,"},
+          {"id": "grounds-s16", "requirement": "Record why it would be dangerous to proceed under s. 16", "trigger": "Apprehension", "applicability": "All s. 17 apprehensions", "citation": 0, "quote": "that it would be dangerous to proceed under section 16"},
+          {"id": "remain", "requirement": "Remain at the facility and retain custody until the facility takes custody", "trigger": "Arrival at a psychiatric facility", "applicability": "Custody taken to a psychiatric facility", "citation": 1, "quote": "shall remain at the facility and retain custody of the person until the facility takes custody of him or her in the prescribed manner"}
+        ],
+        "gaps": ["gap-ontario-regulations", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "basis", "source_id": "on-mental-health-act", "path": "17", "excerpt_contains": "Action by police officer"},
+        {"role": "obligation", "source_id": "on-mental-health-act", "path": "33", "excerpt_contains": "Duty to remain and retain custody"}
+      ]
+    },
+    {
+      "entry_id": "checklist-youth-statement", "kind": "checklist", "category": "questioning",
+      "title": "Before taking a statement from a young person (YCJA s. 146)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "trigger": "youth-statement",
+        "items": [
+          {"id": "explain", "requirement": "Clearly explain the matters in s. 146(2)(b)(i)–(iv) in language appropriate to age and understanding", "trigger": "Before the statement", "applicability": "Young person under 18, circumstances in s. 146(2)", "condition": "youth", "citation": 0, "quote": "clearly explained to the young person, in language appropriate to his or her age and understanding, that"},
+          {"id": "consult", "requirement": "Give a reasonable opportunity to consult counsel and a parent or other appropriate adult", "trigger": "Before the statement", "applicability": "As above", "condition": "youth", "citation": 0, "quote": "been given a reasonable opportunity to consult"},
+          {"id": "presence", "requirement": "If a person was consulted, give a reasonable opportunity to make the statement in that person's presence", "trigger": "Consultation occurred", "applicability": "As above", "condition": "youth", "citation": 0, "quote": "the young person has been given a reasonable opportunity to make the statement in the presence of that person"},
+          {"id": "waiver", "requirement": "Any waiver of s. 146(2)(c) or (d) is recorded on video/audio tape or in a signed written statement", "trigger": "Waiver", "applicability": "Waiver of (2)(c) or (d)", "condition": "youth", "citation": 1, "quote": "must be in writing and contain a statement signed by the young person that he or she has been informed of the right being waived"}
+        ],
+        "gaps": ["gap-caution-wording", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "obligation", "source_id": "ca-youth-criminal-justice-act", "path": "146(2)", "excerpt_contains": "When statements are admissible"},
+        {"role": "condition", "source_id": "ca-youth-criminal-justice-act", "path": "146(4)", "excerpt_contains": "may waive the rights"}
+      ]
+    }
+  ]
+}

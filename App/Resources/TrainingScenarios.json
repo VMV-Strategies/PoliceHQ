@@ -1,0 +1,22 @@
+[
+  {
+    "id": "training-retail",
+    "title": "Retail loss report (fictional)",
+    "narrative": "FICTIONAL TRAINING SCENARIO. A store employee at a fictional shop says a person put items in a bag and left without paying. The employee followed the person outside and is holding them near the entrance. No video has been reviewed yet. The person says they paid at another register."
+  },
+  {
+    "id": "training-traffic",
+    "title": "Roadside stop (fictional)",
+    "narrative": "FICTIONAL TRAINING SCENARIO. An officer signals a driver to stop after a laser reading of 74 km/h in a posted 50 km/h zone. The driver stops after two blocks. The driver cannot produce an insurance card and says the vehicle belongs to a relative. The exact location and municipality have not been recorded yet."
+  },
+  {
+    "id": "training-youth",
+    "title": "Youth statement (fictional)",
+    "narrative": "FICTIONAL TRAINING SCENARIO. A 16-year-old is detained after a reported fight in a park. A witness says the youth pushed another person. The youth wants to speak to a parent before saying anything. A second witness says the other person pushed first."
+  },
+  {
+    "id": "training-trespass",
+    "title": "Refusal to leave (fictional)",
+    "narrative": "FICTIONAL TRAINING SCENARIO. A building manager says a person was told to leave the lobby of a fictional residential building and has not left. The manager is not sure whether the person is a guest of a tenant. The person appears intoxicated and is shouting."
+  }
+]

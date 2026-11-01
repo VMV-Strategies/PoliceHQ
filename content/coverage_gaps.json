@@ -1,0 +1,133 @@
+{
+  "_comment": "Known coverage gaps for this content package. Each gap is shown in the app wherever an affected feature appears. 'Candidate references' are leads for acquisition only; they are not installed, not verified, and never used as legal authority by the app.",
+  "gaps": [
+    {
+      "gap_id": "gap-case-law",
+      "category": "case-law",
+      "title": "Court decisions not installed",
+      "description": "No judgments are installed. Common-law police powers (for example investigative detention, protective searches, search incident to arrest and consent searches) and the courts' interpretation of Charter rights (for example what 'without delay' and 'arbitrarily' require, implementational duties under s. 10(b), and the s. 24(2) exclusion analysis) are largely defined by case law. The app can show the constitutional and statutory text only.",
+      "affects": ["authorities", "rights", "cautions", "offences"],
+      "acquisition": "Obtain the decisions your service relies on from official court sources (for example the Supreme Court of Canada's judgments site) and import them as 'judgment' documents. Candidate decisions to identify and verify before import (not installed, not relied on): R. v. Grant, 2009 SCC 32; R. v. Mann, 2004 SCC 52; R. v. Suberu, 2009 SCC 33; R. v. Sinclair, 2010 SCC 35; R. v. Bartle, [1994] 3 S.C.R. 173; Cloutier v. Langlois, [1990] 1 S.C.R. 158; R. v. Fearon, 2014 SCC 77; R. v. Feeney, [1997] 2 S.C.R. 13; R. v. Le, 2019 SCC 34. Each must pass legal review before any guidance relies on it."
+    },
+    {
+      "gap_id": "gap-caution-wording",
+      "category": "caution-wording",
+      "title": "Approved caution and rights-to-counsel wording not installed",
+      "description": "No service-approved wording for rights to counsel, the primary or secondary police caution, youth statement explanations, breath or drug demands, or identifying-information notices has been supplied. The app will not generate or paraphrase official wording.",
+      "affects": ["cautions"],
+      "acquisition": "Obtain the current approved wording (and its version and approval record) from your police service, then add it with the review tools described in docs/LEGAL_REVIEW.md."
+    },
+    {
+      "gap_id": "gap-ontario-set-fines",
+      "category": "penalty-data",
+      "title": "Ontario set fines not installed",
+      "description": "Set fines for Provincial Offences Act Part I proceedings are not installed, so no provincial ticket amount can be shown. Statutory fines and ranges found in installed Acts are shown separately and are never presented as a ticket amount.",
+      "affects": ["penalties"],
+      "acquisition": "Obtain the official set-fine schedules applicable on the incident date from Ontario's official sources (candidate reference to verify: schedules under R.R.O. 1990, Reg. 950 under the Provincial Offences Act) and import them as a penalty data file with effective dates."
+    },
+    {
+      "gap_id": "gap-victim-fine-surcharge-ontario",
+      "category": "regulation",
+      "title": "Ontario victim fine surcharge rules not installed",
+      "description": "The regulation setting victim fine surcharge amounts for provincial offences is not installed. Surcharges are therefore shown as 'Not installed' and no provincial total is calculated.",
+      "affects": ["penalties"],
+      "acquisition": "Obtain the regulation and its historical versions from Ontario e-Laws (candidate reference to verify: O. Reg. 161/00 under the Provincial Offences Act)."
+    },
+    {
+      "gap_id": "gap-poa-costs",
+      "category": "regulation",
+      "title": "Provincial court costs not installed",
+      "description": "Costs payable on provincial offence tickets are not installed. Costs are shown as 'Not installed'.",
+      "affects": ["penalties"],
+      "acquisition": "Obtain the costs regulation under the Provincial Offences Act from Ontario e-Laws, with historical versions, and verify its application before import."
+    },
+    {
+      "gap_id": "gap-demerit-points",
+      "category": "regulation",
+      "title": "Demerit-point schedule not installed",
+      "description": "Ontario's demerit-point regulation is not installed, so demerit points are shown as 'Not installed' (never as zero). Issuing a ticket does not itself establish that points have been recorded; points follow a conviction under the applicable regulation.",
+      "affects": ["penalties"],
+      "acquisition": "Obtain the demerit point system regulation under the Highway Traffic Act and its historical versions (candidate reference to verify: O. Reg. 339/94)."
+    },
+    {
+      "gap_id": "gap-ontario-regulations",
+      "category": "regulation",
+      "title": "Most Ontario regulations not installed",
+      "description": "Only one Ontario regulation (O. Reg. 400/23 under the Community Safety and Policing Act, 2019) is installed. Regulations under the Highway Traffic Act, Liquor Licence and Control Act, 2019, Cannabis Control Act, 2017, Mental Health Act, Community Safety and Policing Act, 2019 and other installed Acts are missing, so rules that depend on them cannot be assessed.",
+      "affects": ["offences", "authorities", "penalties"],
+      "acquisition": "Download the regulations needed for the subjects you cover from Ontario e-Laws (Word format) and run the ingestion tools."
+    },
+    {
+      "gap_id": "gap-federal-regulations",
+      "category": "regulation",
+      "title": "Most federal regulations not installed",
+      "description": "Federal regulations other than the Contraventions Regulations, Explosives Regulations, 2013, Small Vessel Regulations and Vessel Operation Restriction Regulations are not installed (for example regulations under the Controlled Drugs and Substances Act, Cannabis Act, Firearms Act and the Criminal Code's approved-instrument and screening-device orders).",
+      "affects": ["offences", "authorities"],
+      "acquisition": "Download the needed regulations from the Justice Laws Website and run the ingestion tools."
+    },
+    {
+      "gap_id": "gap-historical-versions",
+      "category": "version",
+      "title": "Historical (point-in-time) versions not installed",
+      "description": "Each source is installed only as the single consolidation supplied. For an incident date before a source's consolidation period, the app cannot confirm that the installed text applied on that date and says so.",
+      "affects": ["versions", "penalties", "offences", "authorities"],
+      "acquisition": "Import point-in-time versions from Justice Laws (previous versions) and Ontario e-Laws (historical versions) for the periods you need."
+    },
+    {
+      "gap_id": "gap-service-policy",
+      "category": "policy",
+      "title": "Police service policies and procedures not installed",
+      "description": "No police service directives, procedures, forms or training standards are installed. Statutes do not describe every operational requirement.",
+      "affects": ["checklists", "cautions", "authorities"],
+      "acquisition": "Add the approved policies your service authorizes for use on personal devices, subject to its information-security rules. Restricted material must not be committed to a public repository."
+    },
+    {
+      "gap_id": "gap-municipal-validation",
+      "category": "extraction",
+      "title": "Municipal by-law structure not validated",
+      "description": "Municipal by-laws were structured automatically from PDFs whose layouts vary. Section numbering may be incomplete, so municipal material is available for reference and search but is excluded from guided analysis until a person verifies the extraction against the original.",
+      "affects": ["municipal"],
+      "acquisition": "Verify each by-law's extraction against the original and record the verification in the registry (see docs/INGESTION.md)."
+    },
+    {
+      "gap_id": "gap-peel-official-versions",
+      "category": "by-law",
+      "title": "Peel Region by-laws are reference conversions",
+      "description": "Most Peel Region by-laws were supplied as 'reference conversions' (converted from Peel Region web pages on 2026-11-01) that state that amendment completeness has not been certified. They are labelled as reference material.",
+      "affects": ["municipal"],
+      "acquisition": "Obtain publisher-issued consolidations from the Regional Municipality of Peel and replace the reference conversions."
+    },
+    {
+      "gap_id": "gap-brampton-parking-amps",
+      "category": "by-law",
+      "title": "Brampton parking administrative-penalty schedule not identified",
+      "description": "Schedule XL of Brampton By-law 93-93 refers to a City of Brampton administrative penalty by-law. No uploaded document was identified as that by-law's parking penalty schedule, so Brampton parking penalty amounts cannot be shown.",
+      "affects": ["penalties", "municipal"],
+      "acquisition": "Obtain the current City of Brampton administrative penalty (parking) by-law and its schedules."
+    },
+    {
+      "gap_id": "gap-municipal-penalty-data",
+      "category": "penalty-data",
+      "title": "Municipal penalty amounts not validated",
+      "description": "Installed municipal by-laws contain fine and administrative-penalty schedules, but their tables have not been verified as structured data. Amounts can be read in the original documents but are not used in calculations.",
+      "affects": ["penalties", "municipal"],
+      "acquisition": "Have a reviewer transcribe and verify the schedules into a penalty data file with effective dates."
+    },
+    {
+      "gap_id": "gap-device-contents",
+      "category": "case-law",
+      "title": "Authority to examine digital device contents not established in installed material",
+      "description": "The installed Criminal Code provisions address seizure of things and search warrants. Whether and how the contents of a seized phone or computer may be examined depends on warrant terms and on court decisions that are not installed. The app keeps 'seizing a device' and 'examining its contents' separate and does not identify an authority for examination in the installed material.",
+      "affects": ["authorities"],
+      "acquisition": "Import the relevant court decisions and service policy, then have a qualified reviewer approve guidance."
+    },
+    {
+      "gap_id": "gap-legal-review",
+      "category": "review",
+      "title": "No qualified legal review recorded",
+      "description": "All guides in this package are editorial drafts (state: 'Editorial interpretation drafted'). No qualified legal review or operational approval has been recorded for any guide, rule, checklist or explanation.",
+      "affects": ["authorities", "rights", "cautions", "offences", "checklists", "explanations"],
+      "acquisition": "Follow docs/LEGAL_REVIEW.md to record reviews for specific guide versions."
+    }
+  ]
+}

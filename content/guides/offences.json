@@ -1,0 +1,262 @@
+{
+  "_comment": "Offence guides with elements and facts in issue. Element quotes are verbatim from installed provisions (checked at build). Statutory elements are not a complete statement of what must be proven: mental-element and interpretive questions are defined by case law that is not installed. Editorial drafts.",
+  "entries": [
+    {
+      "entry_id": "offence-cc-assault", "kind": "offence", "category": "criminal",
+      "title": "Assault (Criminal Code ss. 265(1)(a), 266)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Federal — Canada",
+        "procedure": "Hybrid: indictable offence or offence punishable on summary conviction (s. 266).",
+        "keywords": ["assault", "punch", "push", "hit", "struck", "shove", "kick", "slap", "grab", "fight", "force"],
+        "modes": [
+          {"id": "a", "label": "Applying force (s. 265(1)(a))"},
+          {"id": "b", "label": "Attempt or threat with present ability (s. 265(1)(b)) — elements not broken out in this draft; see source"},
+          {"id": "c", "label": "Weapon while accosting, impeding or begging (s. 265(1)(c)) — see source"}
+        ],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the person who applied the force", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "force", "text": "Force was applied to another person, directly or indirectly", "citation": 0, "quote": "he applies force intentionally to that other person, directly or indirectly"},
+          {"id": "intent", "text": "The application of force was intentional", "citation": 0, "quote": "applies force intentionally"},
+          {"id": "no-consent", "text": "The other person did not consent", "citation": 0, "quote": "without the consent of another person"},
+          {"id": "date-place", "general": true, "text": "Date and place of the incident (jurisdiction and version)", "basis": "General fact in issue (no installed statutory source)."}
+        ],
+        "defences": [
+          {"text": "Self-defence or defence of another (s. 34)", "citation": 2, "quote": "A person is not guilty of an offence if"},
+          {"text": "Consent of the other person (absence of consent is an element)", "citation": 0, "quote": "without the consent of another person"}
+        ],
+        "exculpatory_prompts": ["Was there any indication that force was used against the person first, or threatened?", "Is there any information suggesting consent (for example a consensual sport or activity)?", "Is there any account that the contact was accidental?", "Is identity disputed or based on a single observation?"],
+        "lawful_questions": ["What did each witness see or hear, in their own words?", "Is there video or other recorded evidence of the interaction?", "Are there injuries, and how were they documented?"],
+        "related_authorities": ["auth-arrest-peace-officer-warrantless"],
+        "quotes": [
+          {"citation": 1, "label": "Offence and mode of procedure", "text": "Every one who commits an assault is guilty of"}
+        ],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "element", "source_id": "ca-criminal-code", "path": "265(1)", "excerpt_contains": "A person commits an assault when"},
+        {"role": "penalty", "source_id": "ca-criminal-code", "path": "266", "excerpt_contains": "imprisonment for a term not exceeding five years"},
+        {"role": "related", "source_id": "ca-criminal-code", "path": "34(1)", "excerpt_contains": "the act committed is reasonable in the circumstances"}
+      ]
+    },
+    {
+      "entry_id": "offence-cc-theft", "kind": "offence", "category": "criminal",
+      "title": "Theft (Criminal Code ss. 322(1), 334)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Federal — Canada",
+        "procedure": "Depends on the value stolen (s. 334): over or not over $5,000.",
+        "keywords": ["theft", "stole", "stolen", "shoplift", "took", "missing", "converted"],
+        "modes": [],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the person who took or converted the thing", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "taking", "text": "Took, or converted to their use or the use of another person, anything", "citation": 0, "quote": "takes, or fraudulently and without colour of right converts to his use or to the use of another person, anything"},
+          {"id": "fraudulently", "text": "Acted fraudulently", "citation": 0, "quote": "fraudulently and without colour of right takes"},
+          {"id": "colour-of-right", "text": "Acted without colour of right", "citation": 0, "quote": "without colour of right"},
+          {"id": "intent", "text": "With one of the intents in paragraphs (a)–(d)", "citation": 0, "quote": "to deprive, temporarily or absolutely, the owner of it"},
+          {"id": "value", "text": "Value of what was stolen (affects s. 334 classification)", "citation": 1, "quote": "the value of what is stolen is more than $5,000"},
+          {"id": "date-place", "general": true, "text": "Date and place of the incident", "basis": "General fact in issue (no installed statutory source)."}
+        ],
+        "defences": [
+          {"text": "Colour of right (an honest claim of right; its absence is an element)", "citation": 0, "quote": "without colour of right"}
+        ],
+        "exculpatory_prompts": ["Is there information that the person believed they had a right to the item?", "Is there information about payment, permission, a mistake or an intention to return the item?"],
+        "lawful_questions": ["Who owns or possesses the item, and what is its value and the basis for that value?", "What records (receipts, video, inventory) exist?"],
+        "related_authorities": ["auth-arrest-peace-officer-warrantless", "auth-arrest-any-person"],
+        "quotes": [{"citation": 1, "label": "Punishment provision", "text": "Except where otherwise provided by law, every one who commits theft"}],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "element", "source_id": "ca-criminal-code", "path": "322(1)", "excerpt_contains": "Every one commits theft who"},
+        {"role": "penalty", "source_id": "ca-criminal-code", "path": "334", "excerpt_contains": "Punishment for theft"}
+      ]
+    },
+    {
+      "entry_id": "offence-cc-obstruct", "kind": "offence", "category": "criminal",
+      "title": "Resisting or obstructing a peace officer (Criminal Code s. 129(a))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Federal — Canada",
+        "procedure": "Hybrid (s. 129).",
+        "keywords": ["obstruct", "resist", "pulled away", "refused", "interfered", "blocked officer"],
+        "modes": [],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the person", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "conduct", "text": "Resisted or wilfully obstructed", "citation": 0, "quote": "resists or wilfully obstructs a public officer or peace officer"},
+          {"id": "officer", "text": "The person obstructed was a public officer or peace officer (or a person lawfully acting in aid)", "citation": 0, "quote": "a public officer or peace officer in the execution of his duty"},
+          {"id": "execution-of-duty", "text": "The officer was in the execution of his or her duty", "citation": 0, "quote": "in the execution of his duty"}
+        ],
+        "defences": [],
+        "exculpatory_prompts": ["Was the officer's action itself lawful? (The meaning of 'execution of duty' depends on case law that is not installed.)", "Was the conduct wilful?"],
+        "lawful_questions": ["What exactly did the person do or say, and when?", "What duty was the officer performing, and under what authority?"],
+        "related_authorities": ["auth-arrest-peace-officer-warrantless"],
+        "quotes": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "element", "source_id": "ca-criminal-code", "path": "129", "excerpt_contains": "resists or wilfully obstructs"}]
+    },
+    {
+      "entry_id": "offence-cc-cause-disturbance", "kind": "offence", "category": "criminal",
+      "title": "Causing a disturbance (Criminal Code s. 175(1)(a))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Federal — Canada",
+        "procedure": "Summary conviction (s. 175(1)).",
+        "keywords": ["disturbance", "yelling", "screaming", "shouting", "swearing", "fighting", "drunk", "public place"],
+        "modes": [],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the person", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "not-dwelling", "text": "The person was not in a dwelling-house", "citation": 0, "quote": "not being in a dwelling-house"},
+          {"id": "disturbance", "text": "Caused a disturbance in or near a public place", "citation": 0, "quote": "causes a disturbance in or near a public place"},
+          {"id": "means", "text": "By one of the means listed in subparagraphs (i)–(iii)", "citation": 0, "quote": "by fighting, screaming, shouting, swearing, singing or using insulting or obscene language"}
+        ],
+        "defences": [],
+        "exculpatory_prompts": ["Is there information that no disturbance (as opposed to noise or language alone) resulted? Interpretation depends on case law not installed."],
+        "lawful_questions": ["Who was affected, and how?", "Where exactly did this occur (public place)?"],
+        "related_authorities": ["auth-arrest-peace-officer-warrantless", "auth-arrest-intoxication-llca"],
+        "quotes": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "element", "source_id": "ca-criminal-code", "path": "175(1)", "excerpt_contains": "causes a disturbance in or near a public place"}]
+    },
+    {
+      "entry_id": "offence-hta-fail-to-stop", "kind": "offence", "category": "provincial",
+      "title": "Failing to stop for police (HTA s. 216(1), (2))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Provincial — Ontario",
+        "procedure": "Provincial offence; penalty on conviction in s. 216(2)–(3).",
+        "keywords": ["fail to stop", "failed to stop", "fled", "pursuit", "did not pull over"],
+        "modes": [],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the driver", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "driver", "text": "The person was the driver of a vehicle other than a bicycle", "citation": 0, "quote": "the driver of a vehicle, other than a bicycle"},
+          {"id": "signal", "text": "Signalled or requested to stop by a police officer who is readily identifiable as such", "citation": 0, "quote": "when signalled or requested to stop by a police officer who is readily identifiable as such"},
+          {"id": "no-stop", "text": "Did not immediately come to a safe stop", "citation": 0, "quote": "shall immediately come to a safe stop"},
+          {"id": "lawful-execution", "text": "The officer was acting in the lawful execution of his or her duties and responsibilities", "citation": 0, "quote": "in the lawful execution of his or her duties and responsibilities"}
+        ],
+        "defences": [],
+        "exculpatory_prompts": ["Was the officer readily identifiable as such?", "Was there a safe place to stop immediately?"],
+        "lawful_questions": ["How was the signal given, and from what kind of vehicle or position?", "What is the time line from the signal to the stop (if any)?"],
+        "related_authorities": ["auth-detention-hta-stop", "auth-arrest-hta-217"],
+        "quotes": [{"citation": 1, "label": "Penalty", "text": "to a fine of not less than $1,000 and not more than $10,000;"}],
+        "gaps": ["gap-legal-review"]
+      },
+      "citations": [
+        {"role": "element", "source_id": "on-highway-traffic-act", "path": "216(1)", "excerpt_contains": "shall immediately come to a safe stop"},
+        {"role": "penalty", "source_id": "on-highway-traffic-act", "path": "216(2)", "excerpt_contains": "is guilty of an offence and on conviction is liable"}
+      ]
+    },
+    {
+      "entry_id": "offence-hta-speeding", "kind": "offence", "category": "provincial",
+      "title": "Speeding (HTA s. 128(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Provincial — Ontario",
+        "procedure": "Provincial offence; statutory fine on conviction in s. 128(14).",
+        "keywords": ["speeding", "km/h", "radar", "laser", "speed limit", "over the limit"],
+        "modes": [],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the driver", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "drove", "text": "Drove a motor vehicle", "citation": 0, "quote": "No person shall drive a motor vehicle at a rate of speed greater than,"},
+          {"id": "limit", "text": "The applicable limit (s. 128(1)(a)–(e), a regulation, or a municipal by-law) for that place", "citation": 0, "quote": "50 kilometres per hour on a highway within a local municipality or within a built-up area;"},
+          {"id": "speed", "text": "Rate of speed greater than the applicable limit", "citation": 0, "quote": "at a rate of speed greater than"},
+          {"id": "date-place", "general": true, "text": "Date and exact location (the limit depends on location; municipal schedules may apply)", "basis": "General fact in issue (no installed statutory source)."}
+        ],
+        "defences": [],
+        "exculpatory_prompts": ["Is the applicable limit for that exact location established? Municipal speed schedules are installed only as unvalidated reference material.", "Is the speed measurement method documented?"],
+        "lawful_questions": ["What was the measured speed and method?", "Which limit applied at the exact location and how is it established (signage, by-law schedule)?"],
+        "related_authorities": ["auth-detention-hta-stop"],
+        "municipal_references": ["brampton-bylaw-93-93-sched-x", "mississauga-bylaw-0555-2000-sched-18"],
+        "quotes": [{"citation": 1, "label": "Penalty", "text": "to a fine of $3 for each kilometre per hour that the motor vehicle was driven over the speed limit;"}],
+        "gaps": ["gap-ontario-set-fines", "gap-demerit-points", "gap-municipal-validation", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "element", "source_id": "on-highway-traffic-act", "path": "128(1)", "excerpt_contains": "No person shall drive a motor vehicle at a rate of speed greater than"},
+        {"role": "penalty", "source_id": "on-highway-traffic-act", "path": "128(14)", "excerpt_contains": "$9.75 for each kilometre per hour"}
+      ]
+    },
+    {
+      "entry_id": "offence-tpa-trespass", "kind": "offence", "category": "provincial",
+      "title": "Trespass (Trespass to Property Act s. 2(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Provincial — Ontario",
+        "procedure": "Provincial offence; fine on conviction of not more than $10,000 (s. 2(1)).",
+        "keywords": ["trespass", "trespassing", "banned", "told to leave", "refused to leave", "no trespassing"],
+        "modes": [
+          {"id": "a", "label": "Entry or activity prohibited without express permission (s. 2(1)(a))"},
+          {"id": "b", "label": "Not leaving immediately after being directed to (s. 2(1)(b))"}
+        ],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the person", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "no-authority", "text": "Not acting under a right or authority conferred by law", "citation": 0, "quote": "not acting under a right or authority conferred by law"},
+          {"id": "mode-a", "text": "Mode (a): without express permission of the occupier, entered when entry was prohibited, or engaged in a prohibited activity", "citation": 0, "quote": "without the express permission of the occupier, the proof of which rests on the defendant,"},
+          {"id": "mode-b", "text": "Mode (b): did not leave immediately after being directed to by the occupier or a person authorized by the occupier", "citation": 0, "quote": "does not leave the premises immediately after he or she is directed to do so by the occupier of the premises or a person authorized by the occupier,"}
+        ],
+        "defences": [
+          {"text": "Colour of right in respect of land (s. 2(2))", "citation": 1, "quote": "It is a defence to a charge under subsection (1)"}
+        ],
+        "exculpatory_prompts": ["Who gave any direction to leave, and were they the occupier or authorized?", "How was the prohibition communicated (notice, signs, oral)? Methods are set out elsewhere in the Act."],
+        "lawful_questions": ["Who is the occupier, and who authorized the person giving directions?", "When and how was the direction given, and how long after did the person remain?"],
+        "related_authorities": ["auth-arrest-trespass"],
+        "quotes": [{"citation": 0, "label": "Penalty", "text": "is guilty of an offence and on conviction is liable to a fine of not more than $10,000."}],
+        "gaps": ["gap-ontario-set-fines", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "element", "source_id": "on-trespass-to-property-act", "path": "2(1)", "excerpt_contains": "Every person who is not acting under a right or authority conferred by law"},
+        {"role": "related", "source_id": "on-trespass-to-property-act", "path": "2(2)", "excerpt_contains": "Colour of right as a defence"}
+      ]
+    },
+    {
+      "entry_id": "offence-caia-no-insurance", "kind": "offence", "category": "provincial",
+      "title": "Operating or permitting operation without insurance (CAIA s. 2(1), (3))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Provincial — Ontario",
+        "procedure": "Provincial offence; fines on conviction in s. 2(3).",
+        "keywords": ["insurance", "uninsured", "no insurance", "pink slip", "insurance card"],
+        "modes": [],
+        "elements": [
+          {"id": "owner", "text": "The person was the owner or lessee of the motor vehicle", "citation": 0, "quote": "no owner or lessee of a motor vehicle shall,"},
+          {"id": "operate", "text": "Operated the motor vehicle, or caused or permitted it to be operated", "citation": 0, "quote": "cause or permit the motor vehicle to be operated,"},
+          {"id": "highway", "text": "On a highway", "citation": 0, "quote": "on a highway unless the motor vehicle is insured under a contract of automobile insurance."},
+          {"id": "uninsured", "text": "The vehicle was not insured under a contract of automobile insurance", "citation": 0, "quote": "insured under a contract of automobile insurance"}
+        ],
+        "defences": [],
+        "exculpatory_prompts": ["Is there information about insurance that was in force but not produced? (Producing a card is a separate duty under s. 3.)", "Is ownership or lessee status established?", "The prohibition is 'subject to the regulations', which are not installed."],
+        "lawful_questions": ["What records establish ownership and insurance status on the date?"],
+        "related_authorities": ["auth-detention-hta-stop"],
+        "quotes": [{"citation": 1, "label": "Penalty", "text": "liable on a first conviction to a fine of not less than $5,000 and not more than $25,000"}],
+        "gaps": ["gap-ontario-regulations", "gap-ontario-set-fines", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "element", "source_id": "on-compulsory-automobile-insurance-act", "path": "2(1)", "excerpt_contains": "Subject to the regulations, no owner or lessee of a motor vehicle shall"},
+        {"role": "penalty", "source_id": "on-compulsory-automobile-insurance-act", "path": "2(3)", "excerpt_contains": "is guilty of an offence"}
+      ]
+    },
+    {
+      "entry_id": "offence-llca-intoxicated-public", "kind": "offence", "category": "provincial",
+      "title": "Intoxicated in a public place (LLCA, 2019 s. 31(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "jurisdiction_label": "Provincial — Ontario",
+        "procedure": "Provincial offence (penalty provisions not linked in this draft; see the Act in Statutes).",
+        "keywords": ["intoxicated", "drunk", "public intoxication", "impaired", "alcohol"],
+        "modes": [],
+        "elements": [
+          {"id": "identity", "general": true, "text": "Identity of the person", "basis": "General fact in issue (no installed statutory source)."},
+          {"id": "intoxicated", "text": "Was in an intoxicated condition", "citation": 0, "quote": "No person shall be in an intoxicated condition in,"},
+          {"id": "place", "text": "In a place to which the general public is invited or permitted access, or a common part of a multi-dwelling residence", "citation": 0, "quote": "a place to which the general public is invited or permitted access; or"}
+        ],
+        "defences": [],
+        "exculpatory_prompts": ["Are the observations of intoxication documented, and are there medical explanations?"],
+        "lawful_questions": ["Where exactly was the person, and is it a place within s. 31(1)?"],
+        "related_authorities": ["auth-arrest-intoxication-llca"],
+        "quotes": [],
+        "gaps": ["gap-ontario-regulations", "gap-ontario-set-fines", "gap-legal-review"]
+      },
+      "citations": [{"role": "element", "source_id": "on-liquor-licence-and-control-act-2019", "path": "31(1)", "excerpt_contains": "intoxicated condition"}]
+    }
+  ]
+}

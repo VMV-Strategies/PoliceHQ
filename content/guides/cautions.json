@@ -1,0 +1,120 @@
+{
+  "_comment": "Cautions library. No approved wording is installed. Each entry identifies the missing material and shows related legal sources. The app never generates or paraphrases official wording. Add approved wording only with an approval record (docs/LEGAL_REVIEW.md).",
+  "entries": [
+    {
+      "entry_id": "caution-rights-to-counsel", "kind": "caution", "category": "rights-to-counsel",
+      "title": "Rights to counsel",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "approved_wording": null,
+        "missing_material": "Service-approved rights-to-counsel wording (including any duty-counsel / legal-aid contact information) with version and approving organization.",
+        "purpose": "Informing a person who is arrested or detained of the Charter s. 10(b) right.",
+        "applicable_circumstances": "Arrest or detention.",
+        "approving_organization": null,
+        "accompanying_steps": ["Record the time given and the person's response.", "Further steps (facilitating contact) depend on case law and policy that are not installed."],
+        "documentation": ["Time, wording version, language, interpreter, response, steps taken."],
+        "translations": [],
+        "linked_rights": ["right-charter-10b"],
+        "gaps": ["gap-caution-wording", "gap-case-law"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "to retain and instruct counsel without delay"}]
+    },
+    {
+      "entry_id": "caution-primary", "kind": "caution", "category": "police-caution",
+      "title": "Primary police caution",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "approved_wording": null,
+        "missing_material": "Service-approved primary caution wording with version and approving organization.",
+        "purpose": "Not described here: the legal basis of police cautions lies in case law that is not installed.",
+        "applicable_circumstances": "As defined by service policy (not installed).",
+        "approving_organization": null,
+        "accompanying_steps": [],
+        "documentation": ["Time, wording version, response."],
+        "translations": [],
+        "linked_rights": ["right-charter-7"],
+        "gaps": ["gap-caution-wording", "gap-case-law", "gap-service-policy"]
+      },
+      "citations": [{"role": "related", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:7", "excerpt_contains": "principles of fundamental justice"}]
+    },
+    {
+      "entry_id": "caution-secondary", "kind": "caution", "category": "police-caution",
+      "title": "Secondary police caution",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "approved_wording": null,
+        "missing_material": "Service-approved secondary caution wording with version and approving organization.",
+        "purpose": "Not described here: the legal basis lies in case law that is not installed.",
+        "applicable_circumstances": "As defined by service policy (not installed).",
+        "approving_organization": null,
+        "accompanying_steps": [],
+        "documentation": ["Time, wording version, response."],
+        "translations": [],
+        "linked_rights": ["right-charter-7"],
+        "gaps": ["gap-caution-wording", "gap-case-law", "gap-service-policy"]
+      },
+      "citations": [{"role": "related", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:7", "excerpt_contains": "principles of fundamental justice"}]
+    },
+    {
+      "entry_id": "caution-youth-statement", "kind": "caution", "category": "youth",
+      "title": "Young person — statement explanation and waiver",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "approved_wording": null,
+        "missing_material": "Service-approved youth statement explanation and waiver forms/wording.",
+        "purpose": "Meeting the explanation and consultation requirements of YCJA s. 146(2) before a statement, and the waiver form requirements of s. 146(4).",
+        "applicable_circumstances": "Statements by a young person less than eighteen years old in the circumstances described in s. 146(2).",
+        "approving_organization": null,
+        "accompanying_steps": ["Opportunity to consult counsel and a parent or appropriate adult (s. 146(2)(c)).", "Waiver must be recorded on video or audio tape, or in writing signed by the young person (s. 146(4))."],
+        "documentation": ["Explanation given, language used, persons consulted, waiver record."],
+        "statutory_content_note": "Section 146(2)(b) lists what must be explained. It is not caution wording and is shown only as the legal source.",
+        "translations": [],
+        "linked_rights": ["right-ycja-146-statements", "right-ycja-25-counsel"],
+        "gaps": ["gap-caution-wording", "gap-service-policy"]
+      },
+      "citations": [
+        {"role": "right", "source_id": "ca-youth-criminal-justice-act", "path": "146(2)", "excerpt_contains": "in language appropriate to his or her age and understanding"},
+        {"role": "condition", "source_id": "ca-youth-criminal-justice-act", "path": "146(4)", "excerpt_contains": "may waive the rights"}
+      ]
+    },
+    {
+      "entry_id": "caution-breath-demand", "kind": "caution", "category": "demand",
+      "title": "Screening and evidentiary breath / drug demands",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "approved_wording": null,
+        "missing_material": "Service-approved demand wording for Criminal Code ss. 320.27 and 320.28 demands.",
+        "purpose": "Making a demand under s. 320.27 (screening) or s. 320.28 (evidentiary samples).",
+        "applicable_circumstances": "When the conditions of the relevant subsection are met (see Authorities).",
+        "approving_organization": null,
+        "accompanying_steps": ["Record demand time and grounds."],
+        "documentation": ["Demand time, wording version, response, device or instrument used."],
+        "translations": [],
+        "linked_rights": ["right-charter-10b", "right-charter-9"],
+        "gaps": ["gap-caution-wording", "gap-federal-regulations"]
+      },
+      "citations": [
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "320.27(1)", "excerpt_contains": "by demand"},
+        {"role": "basis", "source_id": "ca-criminal-code", "path": "320.28(1)", "excerpt_contains": "by demand made as soon as practicable"}
+      ]
+    },
+    {
+      "entry_id": "caution-identifying-information", "kind": "caution", "category": "notice",
+      "title": "Identifying-information notice (O. Reg. 400/23)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "approved_wording": null,
+        "missing_material": "The service's procedures and wording developed under s. 14 of O. Reg. 400/23 (s. 7(1) requires informing 'in accordance with the procedures developed under section 14').",
+        "purpose": "Informing an individual as required by s. 7(1) before attempting to collect identifying information.",
+        "applicable_circumstances": "Attempts to collect identifying information to which the regulation applies.",
+        "approving_organization": null,
+        "accompanying_steps": ["Offer the document required by s. 8 unless an exception applies.", "Record the information required by s. 9."],
+        "documentation": ["See s. 9."],
+        "translations": [],
+        "linked_rights": ["right-oreg400-identifying-info"],
+        "gaps": ["gap-caution-wording", "gap-service-policy"]
+      },
+      "citations": [{"role": "obligation", "source_id": "on-o-reg-400-23", "path": "7", "excerpt_contains": "in accordance with the procedures developed under section 14"}]
+    }
+  ]
+}

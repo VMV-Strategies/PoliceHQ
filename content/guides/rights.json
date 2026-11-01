@@ -1,0 +1,307 @@
+{
+  "_comment": "Rights cards organized by encounter stage. Editorial drafts. Constitutional text is quoted verbatim; interpretation of these rights is case-law dependent and case law is not installed.",
+  "entries": [
+    {
+      "entry_id": "right-charter-9", "kind": "right", "category": "detention",
+      "title": "Not to be arbitrarily detained or imprisoned (Charter s. 9)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["initial-interaction", "detention", "arrest", "custody-release"],
+        "protects": "Everyone.",
+        "triggers": "Any detention or imprisonment.",
+        "officer_obligations": ["Identify the legal authority relied on for any detention (see Authorities)."],
+        "timing": "Throughout the encounter.",
+        "limitations": ["Section 1 of the Charter (reasonable limits) — see source.", "What makes a detention 'arbitrary' is defined by case law that is not installed."],
+        "documentation": ["Record the authority relied on and the facts supporting it."],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Right", "text": "Everyone has the right not to be arbitrarily detained or imprisoned."}],
+        "linked_authorities": ["auth-detention-hta-stop", "auth-detention-investigative-common-law", "auth-arrest-peace-officer-warrantless"],
+        "linked_cautions": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:9", "excerpt_contains": "arbitrarily detained"},
+        {"role": "limit", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:1", "excerpt_contains": "reasonable limits prescribed by law"}
+      ]
+    },
+    {
+      "entry_id": "right-charter-10a", "kind": "right", "category": "detention",
+      "title": "To be informed promptly of the reasons for arrest or detention (Charter s. 10(a))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["detention", "arrest"],
+        "protects": "Everyone who is arrested or detained.",
+        "triggers": "Arrest or detention.",
+        "officer_obligations": ["Inform the person promptly of the reasons."],
+        "timing": "Promptly on arrest or detention (as worded). Reassess when the reason changes.",
+        "limitations": ["The content and timing standards are interpreted in case law that is not installed."],
+        "documentation": ["Record when and how reasons were given, and in what language."],
+        "communication": ["Consider language, comprehension, hearing and other communication needs; Charter s. 14 concerns interpreters in proceedings."],
+        "quotes": [{"citation": 0, "label": "Right", "text": "to be informed promptly of the reasons therefor;"}],
+        "linked_authorities": ["auth-arrest-peace-officer-warrantless", "auth-detention-hta-stop"],
+        "linked_cautions": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "to be informed promptly of the reasons therefor"}]
+    },
+    {
+      "entry_id": "right-charter-10b", "kind": "right", "category": "detention",
+      "title": "To retain and instruct counsel without delay and to be informed of that right (Charter s. 10(b))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["detention", "arrest", "questioning"],
+        "protects": "Everyone who is arrested or detained.",
+        "triggers": "Arrest or detention.",
+        "officer_obligations": ["Inform the person of the right.", "Further duties (for example facilitating contact and holding off questioning) are defined by case law that is not installed."],
+        "timing": "'Without delay' (as worded). The meaning of 'without delay' is not defined in the installed text.",
+        "limitations": ["Case law defining informational and implementational duties is not installed.", "Approved wording is not installed (see Cautions)."],
+        "documentation": ["Record the time the right was given, the wording used (once approved wording is installed), the person's response, any request for counsel and steps taken."],
+        "communication": ["Recording that wording was read does not establish that it was understood or that any right was waived."],
+        "quotes": [{"citation": 0, "label": "Right", "text": "to retain and instruct counsel without delay and to be informed of that right; and"}],
+        "linked_authorities": ["auth-arrest-peace-officer-warrantless", "auth-detention-investigative-common-law"],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "gaps": ["gap-case-law", "gap-caution-wording", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "to retain and instruct counsel without delay"}]
+    },
+    {
+      "entry_id": "right-charter-10c", "kind": "right", "category": "custody-release",
+      "title": "Habeas corpus (Charter s. 10(c))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["arrest", "custody-release"],
+        "protects": "Everyone who is arrested or detained.",
+        "triggers": "Arrest or detention.",
+        "officer_obligations": [],
+        "timing": "Throughout detention.",
+        "limitations": [],
+        "documentation": [],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Right", "text": "to have the validity of the detention determined by way of habeas corpus and to be released if the detention is not lawful."}],
+        "linked_authorities": ["auth-release-498", "auth-release-503"],
+        "linked_cautions": [],
+        "gaps": ["gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:10", "excerpt_contains": "habeas corpus"}]
+    },
+    {
+      "entry_id": "right-charter-8", "kind": "right", "category": "search",
+      "title": "To be secure against unreasonable search or seizure (Charter s. 8)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["search-seizure"],
+        "protects": "Everyone.",
+        "triggers": "Any search or seizure.",
+        "officer_obligations": ["Identify the authority for each search and each seizure separately (see Authorities)."],
+        "timing": "Before and during any search or seizure.",
+        "limitations": ["Reasonableness standards are defined by case law that is not installed."],
+        "documentation": ["Record the authority, scope and items for each search and seizure."],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Right", "text": "Everyone has the right to be secure against unreasonable search or seizure."}],
+        "linked_authorities": ["auth-search-warrant-487", "auth-search-exigent-487-11", "auth-seizure-489", "auth-seizure-device-vs-contents", "auth-search-consent"],
+        "linked_cautions": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:8", "excerpt_contains": "unreasonable search or seizure"}]
+    },
+    {
+      "entry_id": "right-charter-7", "kind": "right", "category": "questioning",
+      "title": "Life, liberty and security of the person (Charter s. 7)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["questioning", "detention", "arrest"],
+        "protects": "Everyone.",
+        "triggers": "State action engaging life, liberty or security of the person.",
+        "officer_obligations": [],
+        "timing": "Throughout.",
+        "limitations": ["Principles of fundamental justice (for example as they relate to statements) are defined by case law that is not installed."],
+        "documentation": [],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Right", "text": "Everyone has the right to life, liberty and security of the person and the right not to be deprived thereof except in accordance with the principles of fundamental justice."}],
+        "linked_authorities": [],
+        "linked_cautions": ["caution-primary"],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:7", "excerpt_contains": "principles of fundamental justice"}]
+    },
+    {
+      "entry_id": "right-charter-11", "kind": "right", "category": "custody-release",
+      "title": "Rights of a person charged with an offence (Charter s. 11)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["custody-release"],
+        "protects": "Any person charged with an offence.",
+        "triggers": "Being charged with an offence.",
+        "officer_obligations": [],
+        "timing": "From the charge.",
+        "limitations": [],
+        "documentation": [],
+        "communication": [],
+        "quotes": [
+          {"citation": 0, "label": "11(a)", "text": "to be informed without unreasonable delay of the specific offence;"},
+          {"citation": 0, "label": "11(e)", "text": "not to be denied reasonable bail without just cause;"}
+        ],
+        "linked_authorities": ["auth-release-498", "auth-release-503"],
+        "linked_cautions": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:11", "excerpt_contains": "Any person charged with an offence has the right"}]
+    },
+    {
+      "entry_id": "right-charter-12", "kind": "right", "category": "custody-release",
+      "title": "Not to be subjected to cruel and unusual treatment or punishment (Charter s. 12)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["arrest", "custody-release"],
+        "protects": "Everyone.",
+        "triggers": "Treatment or punishment.",
+        "officer_obligations": [],
+        "timing": "Throughout custody.",
+        "limitations": [],
+        "documentation": [],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Right", "text": "Everyone has the right not to be subjected to any cruel and unusual treatment or punishment."}],
+        "linked_authorities": [],
+        "linked_cautions": [],
+        "gaps": ["gap-case-law", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:12", "excerpt_contains": "cruel and unusual"}]
+    },
+    {
+      "entry_id": "right-charter-14", "kind": "right", "category": "questioning",
+      "title": "Interpreter in proceedings (Charter s. 14) — language and communication",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["questioning", "custody-release"],
+        "protects": "A party or witness in any proceedings who does not understand or speak the language, or who is deaf.",
+        "triggers": "Proceedings.",
+        "officer_obligations": ["Section 14 concerns proceedings. Communication needs during police encounters (for example when giving rights) must still be addressed; the applicable standards are not installed."],
+        "timing": "In proceedings.",
+        "limitations": [],
+        "documentation": ["Record language used, interpreter involvement and any communication barriers."],
+        "communication": ["Record interpreter details and the method of communication."],
+        "quotes": [{"citation": 0, "label": "Right", "text": "has the right to the assistance of an interpreter"}],
+        "linked_authorities": [],
+        "linked_cautions": ["caution-rights-to-counsel"],
+        "gaps": ["gap-case-law", "gap-service-policy", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-constitution-acts-1867-1982", "path": "CA1982:14", "excerpt_contains": "assistance of an interpreter"}]
+    },
+    {
+      "entry_id": "right-ycja-25-counsel", "kind": "right", "category": "detention",
+      "title": "Young person — right to counsel on arrest or detention (YCJA s. 25(2))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["detention", "arrest"],
+        "youth": true,
+        "protects": "A young person (as defined in the YCJA).",
+        "triggers": "Arrest or detention of a young person.",
+        "officer_obligations": ["Advise without delay of the right to retain and instruct counsel.", "Give an opportunity to obtain counsel."],
+        "timing": "On being arrested or detained, without delay.",
+        "limitations": [],
+        "documentation": ["Record the time the young person was advised and the opportunity given."],
+        "communication": ["Use language appropriate to age and understanding where the YCJA requires it (see s. 146 card)."],
+        "quotes": [{"citation": 0, "label": "Obligation", "text": "be advised without delay by the arresting officer of the right to retain and instruct counsel, and be given an opportunity to obtain counsel"}],
+        "linked_authorities": ["auth-arrest-peace-officer-warrantless"],
+        "linked_cautions": ["caution-youth-statement"],
+        "gaps": ["gap-caution-wording", "gap-legal-review"]
+      },
+      "citations": [{"role": "right", "source_id": "ca-youth-criminal-justice-act", "path": "25(2)", "excerpt_contains": "be given an opportunity to obtain counsel"}]
+    },
+    {
+      "entry_id": "right-ycja-146-statements", "kind": "right", "category": "questioning",
+      "title": "Young person — statement admissibility requirements (YCJA s. 146)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["questioning"],
+        "youth": true,
+        "protects": "A young person who is less than eighteen years old.",
+        "triggers": "Statement to a person in authority on arrest or detention, or where there are reasonable grounds for believing the young person committed an offence.",
+        "officer_obligations": ["Clearly explain, in language appropriate to age and understanding, the matters in s. 146(2)(b)(i)–(iv).", "Give a reasonable opportunity to consult as set out in s. 146(2)(c).", "Any waiver of (2)(c) or (d) must meet s. 146(4)."],
+        "timing": "Before the statement is made.",
+        "limitations": [],
+        "documentation": ["Record the explanation given, opportunities to consult, persons consulted and any waiver in the form required by s. 146(4)."],
+        "communication": ["The explanation must be in language appropriate to the young person's age and understanding."],
+        "quotes": [
+          {"citation": 0, "label": "Explanation requirement", "text": "clearly explained to the young person, in language appropriate to his or her age and understanding, that"},
+          {"citation": 1, "label": "Waiver form", "text": "must be recorded on video tape or audio tape; or"}
+        ],
+        "linked_authorities": [],
+        "linked_cautions": ["caution-youth-statement"],
+        "gaps": ["gap-caution-wording", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "right", "source_id": "ca-youth-criminal-justice-act", "path": "146(2)", "excerpt_contains": "is admissible against the young person unless"},
+        {"role": "condition", "source_id": "ca-youth-criminal-justice-act", "path": "146(4)", "excerpt_contains": "must be in writing and contain a statement signed by the young person"}
+      ]
+    },
+    {
+      "entry_id": "right-ycja-26-parent-notice", "kind": "right", "category": "custody-release",
+      "title": "Young person — notice to parent on arrest and detention (YCJA s. 26(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["arrest", "custody-release"],
+        "youth": true,
+        "protects": "A young person arrested and detained in custody pending appearance in court.",
+        "triggers": "Arrest and detention in custody pending appearance.",
+        "officer_obligations": ["Give or cause to be given notice of the arrest to a parent, stating the place of detention and the reason for the arrest."],
+        "timing": "As soon as possible after the young person is detained.",
+        "limitations": ["Subject to s. 26(4) (see source)."],
+        "documentation": ["Record who was notified, when, how, and the content of the notice."],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Obligation", "text": "notice of the arrest stating the place of detention and the reason for the arrest"}],
+        "linked_authorities": ["auth-release-503"],
+        "linked_cautions": [],
+        "gaps": ["gap-legal-review"]
+      },
+      "citations": [{"role": "obligation", "source_id": "ca-youth-criminal-justice-act", "path": "26(1)", "excerpt_contains": "as soon as possible after the young person is detained"}]
+    },
+    {
+      "entry_id": "right-cc-503-justice", "kind": "right", "category": "custody-release",
+      "title": "To be taken before a justice (Criminal Code s. 503(1))",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["custody-release"],
+        "protects": "A person arrested and not released.",
+        "triggers": "Arrest with or without warrant, without release.",
+        "officer_obligations": ["Cause the person to be taken before a justice as set out in s. 503(1)."],
+        "timing": "Within 24 hours where a justice is available (as worded). No deadline is calculated by the app.",
+        "limitations": ["Subject to the other provisions of s. 503."],
+        "documentation": ["Record times."],
+        "communication": [],
+        "quotes": [{"citation": 0, "label": "Obligation", "text": "cause the person to be taken before a justice to be dealt with according to law"}],
+        "linked_authorities": ["auth-release-503"],
+        "linked_cautions": [],
+        "gaps": ["gap-legal-review"]
+      },
+      "citations": [{"role": "obligation", "source_id": "ca-criminal-code", "path": "503(1)", "excerpt_contains": "within a period of 24 hours"}]
+    },
+    {
+      "entry_id": "right-oreg400-identifying-info", "kind": "right", "category": "initial-interaction",
+      "title": "Attempts to collect identifying information — duties to inform (O. Reg. 400/23 s. 7)",
+      "version": "0.1.0", "review_status": "interpretation-drafted",
+      "body": {
+        "stages": ["initial-interaction"],
+        "protects": "An individual from whom a police officer attempts to collect identifying information in the circumstances to which the regulation applies.",
+        "triggers": "An attempt to collect identifying information as described in s. 5, where the regulation applies (see s. 1–4 in source).",
+        "officer_obligations": ["Inform the individual that they are not required to provide identifying information.", "Inform the individual why the officer is attempting to collect it.", "Exceptions in s. 7(2)–(3) require an articulable reason (s. 7(4))."],
+        "timing": "Before attempting to collect.",
+        "limitations": ["Application and exclusions are set out in the regulation's earlier sections (review in Statutes)."],
+        "documentation": ["Recording requirements in s. 9."],
+        "communication": [],
+        "quotes": [
+          {"citation": 0, "label": "Duty (a)", "text": "has informed the individual that the individual is not required to provide identifying information to the officer; and"},
+          {"citation": 0, "label": "Duty (b)", "text": "has informed the individual why the officer is attempting to collect identifying information about the individual."}
+        ],
+        "linked_authorities": [],
+        "linked_cautions": ["caution-identifying-information"],
+        "linked_checklists": ["checklist-identifying-information"],
+        "gaps": ["gap-service-policy", "gap-legal-review"]
+      },
+      "citations": [
+        {"role": "obligation", "source_id": "on-o-reg-400-23", "path": "7", "excerpt_contains": "is not required to provide identifying information"},
+        {"role": "related", "source_id": "on-o-reg-400-23", "path": "5", "excerpt_contains": "in a face-to-face encounter"}
+      ]
+    }
+  ]
+}
